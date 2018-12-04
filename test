@@ -1,1 +1,8 @@
 testing...
+
+
+ git config --global user.email "ganesh.nehulkar@wwindia.com"
+
+git config --global user.name "Ganesh"
+
+
