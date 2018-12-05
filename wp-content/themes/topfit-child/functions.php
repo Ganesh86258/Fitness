@@ -1349,8 +1349,9 @@ function register_user_frontend() {
          $user_info = get_userdata($user_id);
          $full_name =$user_info->user_login;
          $template_html_in_db = get_post_field('post_content',16144);
-         $placeholder2 =array("{{ACTIVATION_CODE}}");
-         $message_template = str_replace($placeholder2, $activation_link, $template_html_in_db );
+         $placeholder =array("{{FULLNAME}}","{{ACTIVATION_CODE}}");
+         $value = array($full_name,$activation_link);
+          $message_template = str_replace($placeholder, $value, $template_html_in_db );
 
 
         /* fetching email content from custom post type mail  */
@@ -1599,10 +1600,28 @@ function register_trainer_frontend() {
 
          //$message = 'Hi, '.$username.' Your registration in progress  submitted for approval please click on activation link : '.$activation_link;
 
-         $message = 'Hi, '.$username.' Please Login to complete your profile ';
+         $user_info = get_userdata($user_id);
+         $full_name =$user_info->user_login;
+         $template_html_in_db = get_post_field('post_content',16146);
+         $placeholder =array("{{FULLNAME}}");
+         $value = array($full_name);
+          
+
+         $message_template = str_replace($placeholder, $value, $template_html_in_db );
+
+
+         $headers[] = "MIME-Version: 1.0" . "\r\n";
+         $headers[] = "Content-type:text/html;charset=utf-8" . "\r\n"; 
+       
+        
+
+        $mail_sent = wp_mail($email,'User Activation',$message_template,$headers); 
+
+
+        // $message = 'Hi, '.$username.' Please Login to complete your profile ';
 
           //wp_mail( $email, 'User Activation', 'Activation link : ' . $activation_link );
-         wp_mail( $email, 'User Activation', $message );
+        // wp_mail( $email, 'User Activation', $message );
 
          //sending notification to admin for aaproval
 
