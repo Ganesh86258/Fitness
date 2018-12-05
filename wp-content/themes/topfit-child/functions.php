@@ -1525,6 +1525,7 @@ function register_trainer_frontend() {
        $trainer_type = $wpdb->escape(trim($_POST['trainer_type']));
        $time_slot = $wpdb->escape(trim($_POST['time_slot']));
 
+
        //echo $first_name;
 
 
@@ -1672,7 +1673,7 @@ function register_trainer_frontend() {
 
         //save lat long in datbase for trainer location
 
-    $address ="SNo173 Hinjawadi Rajiv Gandhi Infotech Park Hinjawadi Blue Ridge,pune";
+    $address = $Location;
     $siteKey = 'AIzaSyB55KEoT15-q2rte2P67iL4wC05RTSuyUA';
     $returnValue = array();
     $resultData = array();
