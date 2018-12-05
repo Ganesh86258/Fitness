@@ -1610,9 +1610,23 @@ function register_trainer_frontend() {
 
           //$adminemail ='neogannear@gmail.com';
 
-          $admmessage = 'Hi, New trainer '.$username.' has been registered.';
+          $template_html_in_db_new = get_post_field('post_content',16147);
+          $placeholder_new =array("{{USERNAME}}");
+          $value_new = array($full_name);
+          $message_template_new = str_replace($placeholder_new, $value_new, $template_html_in_db_new );
+
+          $headers1[] = "MIME-Version: 1.0" . "\r\n";
+          $headers1[] = "Content-type:text/html;charset=utf-8" . "\r\n"; 
+       
+        
+
+        $mail_sent = wp_mail($adminemail,'New Trainer Registration',$message_template_new,$headers1);  
+
+
+
+          //$admmessage = 'Hi, New trainer '.$username.' has been registered.';
     
-         wp_mail( $adminemail, 'New Trainer Registration', $admmessage );
+         //wp_mail( $adminemail, 'New Trainer Registration', $admmessage );
 
       }
 
