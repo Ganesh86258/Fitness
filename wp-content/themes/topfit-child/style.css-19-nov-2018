@@ -1,0 +1,18 @@
+/*
+Theme Name: TopFit Child
+Theme URI: http://topfit.mikado-themes.com/
+Description: A child theme of TopFit Theme
+Author: Mikado Themes
+Author URI: http://themeforest.net/user/mikado-themes
+Version: 1.0.0
+Template: topfit
+*/
+
+.alignleft1 { padding-bottom: 20px; color: green; font-size: 20px; padding-left: 500px; }
+.not-active { pointer-events: none; cursor: default; text-decoration: none; color: black; }
+#main_search_option{ }
+#trainer_list { padding-top: 50px; }
+.wgtmsr{ width:168px; }
+#succmsg{ padding-top: 20px; color: green; }
+.error { color: red; margin-left: 5px; }
+.required { color: red; margin-left:5px; }

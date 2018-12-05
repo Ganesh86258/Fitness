@@ -1,0 +1,518 @@
+<?php
+/**
+ * Modifications to the WP-API
+ *
+ * @package AppPresser
+ * @license http://www.opensource.org/licenses/gpl-license.php GPL v2.0 (or later)
+ */
+
+class AppPresser_WPAPI_Mods {
+
+	/**
+	 * Party Started
+	 * @since 1.0.0
+	 */
+	public function __construct() {
+		$this->hooks();
+	}
+
+	public function hooks() {
+
+		add_action( 'rest_api_init', array( $this, 'add_api_fields' ) );
+
+		// this is related to the verify_user() function below
+		add_filter( 'wp_authenticate_user', array( $this, 'check_app_unverified' ), 10, 2 );
+		
+		// CORS
+		add_action( 'rest_api_init', array( $this, 'appp_cors') );
+
+	}
+
+	/**
+	 * Use:
+	 * 
+	 *  Access-Control-Allow-Origin: *
+	 * 
+	 * Applies a filter 
+	 * 
+	 * @since 3.6.0
+	 */
+	public function app_cors_header() {
+		
+		$appp_allow_origin = apply_filters( 'appp_allow_api_origin', '*' );
+		$appp_allow_methods = apply_filters( 'appp_allow_api_methods', 'GET,PUT,POST,DELETE,PATCH,OPTIONS' );
+
+		if( $appp_allow_origin ) {
+			header("Access-Control-Allow-Origin: $appp_allow_origin");
+			header("Access-Control-Allow-Methods: $appp_allow_methods");
+		}
+	}
+
+	/**
+	 * A filter to use:
+	 * 
+	 *  Access-Control-Allow-Origin: *
+	 * 
+	 * when the AppPresser admin setting is on.
+	 * 
+	 * @since 3.6.0
+	 */
+	public function appp_cors() {
+
+		// Only add when setting is enabled
+		if( appp_get_setting( 'ap3_enable_cors', false ) ) {
+			add_filter( 'appp_allow_api_origin', function() {
+				return '*';
+			} );
+			$this->app_cors_header();
+		} else {
+			add_filter( 'appp_allow_api_origin', function() {
+				return false;
+			} );
+		}
+		
+	}
+
+	public function add_api_fields() {
+
+		/***
+		* Add featured image urls to post response.
+		* Sample usage in the app files would be data.featured_image_urls.thumbnail
+		***/
+		register_rest_field( 'post',
+		    'featured_image_urls',
+		    array(
+		        'get_callback'    => array( $this, 'image_sizes' ),
+		        'update_callback' => null,
+	            'schema'          => null,
+		    )
+		);
+
+		// add urls for media
+		$post_types = appp_get_setting( 'media_post_types' );
+
+		if( !empty( $post_types ) ) {
+
+			foreach ($post_types as $type) {
+				register_rest_field( $type,
+				    'appp_media',
+				    array(
+				        'get_callback'    => array( $this, 'get_media_url' ),
+				        'update_callback' => null,
+			            'schema'          => null,
+				    )
+				);
+			}
+			
+		}
+
+		$this->register_routes();
+		
+	}
+
+	public function image_sizes( $post ) {
+
+	    $featured_id = get_post_thumbnail_id( $post['id'] );
+
+		$sizes = wp_get_attachment_metadata( $featured_id );
+
+		$size_data = new stdClass();
+				
+		if ( ! empty( $sizes['sizes'] ) ) {
+
+			foreach ( $sizes['sizes'] as $key => $size ) {
+				// Use the same method image_downsize() does
+				$image_src = wp_get_attachment_image_src( $featured_id, $key );
+
+				if ( ! $image_src ) {
+					continue;
+				}
+				
+				$size_data->$key = $image_src[0];
+				
+			}
+
+		}
+
+		return $size_data;
+	    
+	}
+
+	public function get_media_url( $post ) {
+
+		$value = get_post_meta( $post['id'], 'appp_media_url', true );
+
+		$data = [];
+
+		if( !empty( $value ) ) {
+			$data['media_url'] = $value;
+		} else {
+			return;
+		}
+
+		return $data;
+
+	}
+
+	/**
+	 * API routes for in-app login and registration
+	 * 
+	 * @since 3.6.0
+	 */
+	public function register_routes() {
+
+		// Bail early if no core rest support.
+		if ( ! class_exists( 'WP_REST_Controller' ) ) {
+			return;
+		}
+
+		register_rest_route( 'appp/v1', '/login', array(
+			array(
+				'methods'             => WP_REST_Server::CREATABLE,
+				'callback'            => array( $this, 'api_login' )
+			),
+		) );
+
+		register_rest_route( 'appp/v1', '/logout', array(
+			array(
+				'methods'             => WP_REST_Server::READABLE,
+				'callback'            => array( $this, 'api_logout' )
+			),
+		) );
+
+		register_rest_route( 'appp/v1', '/register', array(
+			array(
+				'methods'             => WP_REST_Server::CREATABLE,
+				'callback'            => array( $this, 'register_user')
+			),
+		) );
+
+		register_rest_route( 'appp/v1', '/verify', array(
+			array(
+				'methods'             => WP_REST_Server::CREATABLE,
+				'callback'            => array( $this, 'verify_user')
+			),
+		) );
+
+		register_rest_route( 'appp/v1', '/verify-resend', array(
+			array(
+				'methods'             => WP_REST_Server::CREATABLE,
+				'callback'            => array( $this, 'send_verification_code')
+			),
+		) );
+
+	}
+
+	/**
+	 * Login via API
+	 * 
+	 * @since 3.6.0
+	 */
+	public function api_login( $request ) {
+
+		$info['user_login'] = ( $_POST['username'] ? $_POST['username'] : $_SERVER['PHP_AUTH_USER'] );
+		$info['user_password'] = ( $_POST['password'] ? $_POST['password'] : $_SERVER['PHP_AUTH_PW'] );
+		$info['remember'] = true;
+
+		if( empty( $info['user_login'] ) || empty( $info['user_password'] ) ) {
+			wp_send_json_error( 'Missing required fields.' );
+		}
+		
+		$user_signon = wp_signon( $info, false );
+
+		do_action( 'appp_login_header' );
+		
+		if( is_wp_error( $user_signon ) ) {
+		
+			$msg = array(
+				'message' =>  apply_filters( 'appp_login_error', __('The log in you have entered is not valid.', 'apppresser'), $info['user_login'] ),
+				'signon' => $info['user_login'] . $info['user_password'],
+				'line' => __LINE__,
+				'success' => false
+			);
+			
+			wp_send_json_error( __('The log in you have entered is not valid.', 'apppresser') );
+			
+		} else {
+
+			$msg = array(
+				'message' => apply_filters( 'appp_login_success', sprintf( __('Welcome back %s!', 'apppresser'), $user_signon->display_name), $user_signon->ID ),
+				'username' => $info['user_login'],
+				'avatar' => get_avatar_url( $user_signon->ID ),
+				'login_redirect' => $this->get_login_redirect(), // v3 only
+				'success' => true
+			);
+			
+		}
+
+		$msg = apply_filters( 'appp_login_data', $msg, $user_signon->ID );
+
+		$retval = rest_ensure_response( $msg );
+
+		return $retval;
+
+	}
+
+	/**
+	 * Logout via API
+	 * 
+	 * @since 3.6.0
+	 */
+	public function api_logout( $request ) {
+
+		do_action( 'appp_logout_header' );
+
+		wp_logout();
+
+		$response = array(
+			'message' => __('Logout success.', 'apppresser'),
+			'success' => true
+		);
+
+		$redirect = $this->get_logout_redirect();
+		if($redirect) {
+			$response['logout_redirect'] = $redirect;
+		}
+
+		$retval = rest_ensure_response( $response );
+
+		return $retval;
+
+	}
+
+	/**
+	 * Register user via API
+	 * First, we add the user to WordPress, and set a meta key of app_unverified to true
+	 * Next, we send them a key, which is a short hash
+	 * They have to grab the key and send it back to verify_user(), which logs them in and deletes the app_unverified meta
+	 *
+	 * @since 3.6.0
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return WP_REST_Request List of activities object data.
+	 */
+	public function register_user( $request ) {
+
+		if( empty( $request['username'] ) || empty( $request['email'] ) ) {
+
+			return new WP_Error( 'rest_invalid_registration',
+				__( 'Missing required fields.', 'apppresser' ),
+				array(
+					'status' => 404,
+				)
+			);
+
+		}
+
+		if ( email_exists( $request['email'] ) || username_exists( $request['username'] ) ) {
+			return new WP_Error( 'rest_invalid_registration',
+				__( 'Email or username already exists.', 'apppresser' ),
+				array(
+					'status' => 404,
+				)
+			);
+		}
+
+		if( empty( $request['password'] ) ) {
+			$password = wp_generate_password( 8 );
+		} else {
+			$password = $request['password'];
+		}
+
+		$userdata = array(
+		    'user_login'  =>  $request['username'],
+		    'user_pass'   =>  $password,
+		    'user_email'  =>  $request['email'],
+		    'first_name'  =>  $request['first_name'],
+		    'last_name'   =>  $request['last_name']
+		);
+
+		$user_id = wp_insert_user( $userdata );
+
+		if ( is_wp_error( $user_id ) ) {
+			return new WP_Error( 'rest_invalid_registration',
+				__( 'Something went wrong with registration.', 'apppresser' ),
+				array(
+					'status' => 404,
+				)
+			);
+		}
+
+		update_user_meta( $user_id, 'app_unverified', true );
+
+		$mail_sent = $this->send_verification_code( $request );
+
+		if ( !$mail_sent ) {
+			return new WP_Error( 'rest_invalid_registration',
+				__( 'We could not send your verification code, please contact support.', 'apppresser' ),
+				array(
+					'status' => 404,
+				)
+			);
+		}
+
+		$retval = rest_ensure_response( "Your verification code has been sent, please check your email." );
+
+		return $retval;
+
+	}
+
+	/**
+	 * Emails a verification code
+	 * 
+	 * @since 3.6.0
+	 */
+	public function send_verification_code( $request ) {
+
+		if( empty( $request['email'] ) || empty( $request['username'] ) ) {
+			return new WP_Error( 'rest_invalid_verification',
+				__( 'Missing required field.', 'apppresser' ),
+				array(
+					'status' => 404,
+				)
+			);
+		}
+
+		// now send verification code
+		$verification_code = hash( "md5", $request['username'] . $request['email'] );
+		// make it shorter
+		$verification_code = substr($verification_code, 1, 4);
+		$subject = __( 'Your Verification Code', 'apppresser' );
+
+		$content = sprintf( __( "Hi, thanks for registering! Here is your verification code: %s \n\nPlease enter this code in the app. \n\nThanks!", "apppresser" ), $verification_code );
+
+		$mail_sent = wp_mail( $request["email"], "Your Verification Code", $content );
+
+		return $mail_sent;
+	}
+
+	/**
+	 * Verify user, then log them in
+	 * 
+	 * @since 3.6.0
+	 */
+	public function verify_user( $request ) {
+
+		if( empty( $request['email'] ) || empty( $request['verification'] ) ) {
+			return new WP_Error( 'rest_invalid_verification',
+				__( 'Missing required field.', 'apppresser' ),
+				array(
+					'status' => 404,
+				)
+			);
+		}
+
+		$verification_code = hash( "md5", $request['username'] . $request['email'] );
+		$verification_code = substr($verification_code, 1, 4);
+
+		if( $request['verification'] != strval( $verification_code ) ) {
+			// fail
+			return new WP_Error( 'rest_invalid_verification',
+				__( 'Verification code does not match.', 'apppresser' ),
+				array(
+					'status' => 404,
+				)
+			);
+		}
+
+		$user = get_user_by( 'email', $request['email'] );
+
+		delete_user_meta( $user->ID, 'app_unverified' );
+
+		// log the user in
+		$info = array();
+		$info['user_login'] = $request['username'];
+		$info['user_password'] = $request['password'];
+		$info['remember'] = true;
+		
+		$user_signon = wp_signon( $info, false );
+
+		if ( is_wp_error( $user_signon ) || !$user ) {
+			return new WP_Error( 'rest_invalid_verification',
+				__( 'Verification succeeded, please login.', 'apppresser' ),
+				array(
+					'status' => 200,
+				)
+			);
+		}
+
+		$message = array(
+			'message' => apply_filters( 'appp_login_success', sprintf( __('Welcome back %s!', 'apppresser'), $user_signon->display_name), $user_signon->ID ),
+			'username' => $info['user_login'],
+			'avatar' => get_avatar_url( $user_signon->ID ), // v3 only
+			'success' => true
+		);
+
+		if( class_exists('APBPRest') ) {
+
+			$APBPRest = new APBPRest();
+
+			$message = $APBPRest->add_jwt_to_login_data( $message, $user_signon->ID );
+		}
+
+		$retval = rest_ensure_response( $message );
+
+		return $retval;
+
+	}
+
+	/**
+	 * Disallow login if user is unverified
+	 * 
+	 * @since 3.6.0
+	 */
+	public function check_app_unverified( $user, $password ) {
+
+		if( get_user_meta( $user->ID, 'app_unverified', 1 ) ) {
+
+			return new WP_Error( 'app_unverified_login',
+				__( 'You have not verified by email, please contact support.', 'apppresser' ),
+				array(
+					'status' => 404,
+				)
+			);
+		}
+
+		return $user;
+
+	}
+
+	/**
+	 * Get the login redirect for the app's login modal
+	 * 
+	 * @since 3.2.1
+	 * @return string | array( 'url' => '', 'title' => '' )
+	 */
+	public function get_login_redirect() {
+
+		if( has_filter( 'appp_login_redirect' ) ) {
+			$redirect_to = apply_filters( 'appp_login_redirect', '' );
+
+			return $this->add_redirect_title( $redirect_to );
+			
+		} else {
+			return '';
+		}
+	}
+
+	/**
+	 * Get the login redirect for the app's login modal
+	 * 
+	 * @since 3.3.0
+	 * @return string | array( 'url' => '', 'title' => '' )
+	 */
+	public function get_logout_redirect() {
+
+		if( has_filter( 'appp_logout_redirect' ) ) {
+			$redirect_to = apply_filters( 'appp_logout_redirect', '' );
+
+			return self::add_redirect_title( $redirect_to );
+			
+		} else {
+			return '';
+		}
+	}
+
+}
+$AppPresser_WPAPI_Mods = new AppPresser_WPAPI_Mods();
+$AppPresser_WPAPI_Mods->hooks();

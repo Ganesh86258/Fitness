@@ -1,0 +1,33 @@
+/*
+Theme Name: TopFit Child
+Theme URI: http://topfit.mikado-themes.com/
+Description: A child theme of TopFit Theme
+Author: Mikado Themes
+Author URI: http://themeforest.net/user/mikado-themes
+Version: 1.0.0
+Template: topfit
+*/
+
+.alignleft1 { padding-bottom: 20px; color: #00ff00; font-size: 20px; padding-left: 330px; }
+.alignleft2 { padding-bottom: 20px; color: #00ff00; font-size: 17px; }
+.not-active { pointer-events: none; cursor: default; text-decoration: none; color: #CCCCCC; }
+#main_search_option{ }
+#trainer_list { padding-top: 50px; }
+.wgtmsr{ width:168px; }
+#succmsg{ padding-top: 20px; color: #00ff00; }
+.error { color: #ff0000; margin-left: 5px; }
+.required { color: #ff0000; margin-left:5px; }
+.msg-success { color: #00ff00; }
+.msg-error { color: #ff0000; }
+.validate-phone { color: #ff0000; margin-left:5px;}
+
+/*For Questionnaire Tab*/
+.each-que .next-border-b { border-bottom:0px solid; }
+.each-que .question { font-weight: bold; font-size: 15px; color: #000; }
+.each-que .answers, #tabs-3 .no-answers { margin: 10px; }
+
+#tabs-3 .navigation-n-p { text-align: center; }
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}

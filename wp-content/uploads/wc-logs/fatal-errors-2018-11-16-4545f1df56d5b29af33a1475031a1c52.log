@@ -1,0 +1,36 @@
+2018-11-16T09:46:35+00:00 CRITICAL Call to a member function insert() on null
+
+2018-11-16T09:46:55+00:00 CRITICAL Call to a member function update() on null
+
+2018-11-16T09:48:34+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T09:48:43+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T09:49:22+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T09:52:28+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T09:53:14+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T09:54:16+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T09:55:28+00:00 CRITICAL Call to a member function insert() on null
+
+2018-11-16T09:55:38+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T09:56:35+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T09:56:53+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T09:57:24+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T09:58:59+00:00 CRITICAL Call to a member function get_results() on null
+
+2018-11-16T10:02:31+00:00 CRITICAL Call to a member function update() on null
+
+2018-11-16T10:05:14+00:00 CRITICAL Call to a member function update() on null
+
+2018-11-16T10:06:00+00:00 CRITICAL Call to a member function insert() on null
+
+2018-11-16T10:07:25+00:00 CRITICAL Call to a member function insert() on null
+

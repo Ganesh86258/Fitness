@@ -1,0 +1,37 @@
+button.appfbconnectlogin {
+	background-color: #3b5998;
+	overflow: hidden;
+	border: none;
+	color: #fff;
+	line-height: 20px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+button.appfbconnectlogin:active, button.appfbconnectlogin:visited, button.appfbconnectlogin:focus {
+	color: #fff;
+}
+
+button.appfbconnectlogin:before, button.appfbconnectstatus:before {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url('img/facebook-icon-white.png');
+	background-position: top left;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+	margin-right: 10px;
+}
+
+#appbuddy-loginform button.appfbconnectlogin, #loginModal button.appfbconnectlogin {
+	width: 100%;
+}
+
+button.appfbconnectstatus {
+	background-color: #3b5998;
+	border: none;
+	color: #fff;
+	margin-bottom: 10px;
+}

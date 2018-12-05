@@ -1,0 +1,20 @@
+[03-Jan-2018 12:53:41 UTC] WordPress database error Unknown column 'cp_' in 'field list' for query SELECT cp_
+[03-Jan-2018 13:20:09 UTC] PHP Warning:  sprintf(): Too few arguments in /home/c4thpowe/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[03-Jan-2018 13:20:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_url() on null in /home/c4thpowe/public_html/wp-content/plugins/revslider/includes/template.class.php:136
+Stack trace:
+#0 /home/c4thpowe/public_html/wp-content/plugins/revslider/admin/revslider-admin.class.php(112): RevSliderTemplate->_get_template_list()
+#1 /home/c4thpowe/public_html/wp-content/plugins/revslider/admin/revslider-admin.class.php(44): RevSliderAdmin->init()
+#2 /home/c4thpowe/public_html/wp-content/plugins/revslider/revslider.php(168): RevSliderAdmin->__construct('/home/c4thpowe/...')
+#3 /home/c4thpowe/public_html/wp-admin/includes/plugin.php(555): include_once('/home/c4thpowe/...')
+#4 /home/c4thpowe/public_html/wp-admin/includes/plugin.php(747): activate_plugin('revslider/revsl...', '', false, false)
+#5 /home/c4thpowe/public_html/wp-content/themes/topfit/includes/plugins/class-tgm-plugin-activation.php(3025): activate_plugins(Array)
+#6 /home/c4thpowe/public_html/wp-content/themes/topfit/includes/plugins/class-tgm-plugin-activation.php(3073): TGMPA_Li in /home/c4thpowe/public_html/wp-content/plugins/revslider/includes/template.class.php on line 136
+[03-Jan-2018 13:20:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_url() on null in /home/c4thpowe/public_html/wp-content/plugins/revslider/includes/object-library.class.php:62
+Stack trace:
+#0 /home/c4thpowe/public_html/wp-content/plugins/revslider/admin/revslider-admin.class.php(118): RevSliderObjectLibrary->_get_list()
+#1 /home/c4thpowe/public_html/wp-content/plugins/revslider/admin/revslider-admin.class.php(44): RevSliderAdmin->init()
+#2 /home/c4thpowe/public_html/wp-content/plugins/revslider/revslider.php(168): RevSliderAdmin->__construct('/home/c4thpowe/...')
+#3 /home/c4thpowe/public_html/wp-admin/includes/plugin.php(555): include_once('/home/c4thpowe/...')
+#4 /home/c4thpowe/public_html/wp-content/themes/topfit/includes/plugins/class-tgm-plugin-activation.php(1042): activate_plugin('revslider/revsl...')
+#5 /home/c4thpowe/public_html/wp-content/themes/topfit/includes/plugins/class-tgm-plugin-activation.php(923): TGM_Plugin_Activation->activate_single_plugin('revslider/revsl...', 'revslider')
+#6 /home/c4thpowe/public_html/wp-c in /home/c4thpowe/public_html/wp-content/plugins/revslider/includes/object-library.class.php on line 62

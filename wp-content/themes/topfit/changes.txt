@@ -1,0 +1,27 @@
+1.2.1
+- Updated WPBakery Page Builder to 5.3
+- Updated Slider Revolution to 5.4.6
+- Updated Timetable Responsive Schedule For WordPress to 4.0
+
+1.2
+- Added WooCommerce 3.1.1 compatibility
+- Fixed potential security issue when saving theme options
+
+1.1
+- Added WooCommerce 3+ compatibility
+- Updated Visual Composer to 5.2
+- Updated Revolution slider to version 5.4.5.1
+- Updated Mikado Core to 1.1.2
+- Updated Font Awesome icon pack to 4.7.0
+- Updated Timetable Responsive Schedule For WordPress plugin to 3.9
+- Fixed dynamic styles script loading
+- Fixed the issue with Comparison Pricing Table button
+- Fixed responsiveness for Horizontal Timeline shortcode
+- Fixed issue with WooCommerce Update Cart button
+- Fixed header fileds dependency on page level
+- Fixed compatibility issue with PHP versions prior to 5.3
+- Fixed import functionality bug
+- Fixed responsiveness for sticky main menu
+- Fixed first color change on shop pages
+- Fixed https problem with links
+- Fixed issue with Mikado Slider

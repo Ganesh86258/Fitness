@@ -1,0 +1,4031 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gym management\n"
+"POT-Creation-Date: 2018-08-09 16:26+0530\n"
+"PO-Revision-Date: 2018-08-09 16:26+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: ISO-8859-1\n"
+"X-Poedit-KeywordsList: ;_e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/access_right/accountant.php:224 admin/access_right/member.php:224
+#: admin/access_right/staff_member.php:224 admin/access_right_old/index.php:145
+msgid "Record Updated Successfully"
+msgstr ""
+
+#: admin/access_right/accountant.php:237
+msgid "Accountant Access Right"
+msgstr ""
+
+#: admin/access_right/accountant.php:242 admin/access_right/member.php:242
+#: admin/access_right/staff_member.php:242 admin/access_right_old/index.php:164
+#: fronted_template.php:240
+msgid "Menu"
+msgstr ""
+
+#: admin/access_right/accountant.php:243 admin/access_right/member.php:243
+#: admin/access_right/staff_member.php:243
+msgid "Own Data"
+msgstr ""
+
+#: admin/access_right/accountant.php:244 admin/access_right/member.php:244
+#: admin/access_right/staff_member.php:244 admin/alumni/index.php:346
+#: admin/group/index.php:158 admin/member/index.php:403
+#: admin/membership_payment/index.php:231
+#: admin/membership_payment/index.php:255 admin/notice/index.php:177
+#: admin/prospect/index.php:350 admin/workout-type/index.php:188
+#: admin/workout/index.php:278 template/alumni.php:359 template/alumni.php:410
+#: template/group.php:253 template/member.php:460 template/member.php:494
+#: template/member.php:537 template/notice.php:193 template/notice.php:222
+#: template/notice.php:254 template/prospect.php:359 template/prospect.php:410
+#: template/workouts.php:322 template/workouts.php:367
+msgid "View"
+msgstr ""
+
+#: admin/access_right/accountant.php:245 admin/access_right/member.php:245
+#: admin/access_right/staff_member.php:245
+msgid "Add"
+msgstr ""
+
+#: admin/access_right/accountant.php:246 admin/access_right/member.php:246
+#: admin/access_right/staff_member.php:246 admin/accountant/index.php:212
+#: admin/activity/index.php:153 admin/alumni/index.php:347
+#: admin/class-schedule/index.php:261 admin/class-schedule/schedule_list.php:40
+#: admin/group/index.php:159 admin/member/index.php:404
+#: admin/membership/index.php:236 admin/membership_payment/index.php:238
+#: admin/membership_payment/index.php:262 admin/notice/index.php:178
+#: admin/payment/expense-list.php:55 admin/payment/income-list.php:166
+#: admin/payment/income-list.php:189 admin/payment/index.php:257
+#: admin/product/index.php:154 admin/prospect/index.php:351
+#: admin/reservation/index.php:261 admin/staff-members/index.php:216
+#: admin/store/index.php:290 admin/store/index.php:308
+#: admin/workout-type/index.php:192 admin/workout/measurement_list.php:59
+#: gmgt_function.php:3956 gmgt_function.php:3965 template/activity.php:222
+#: template/alumni.php:403 template/class-schedule.php:405
+#: template/class-schedule.php:644 template/group.php:258
+#: template/membership.php:286 template/notice.php:255 template/payment.php:486
+#: template/payment.php:517 template/payment.php:553 template/payment.php:584
+#: template/payment.php:616 template/payment.php:951 template/product.php:211
+#: template/prospect.php:403 template/reservation.php:315
+#: template/store.php:394 template/store.php:420 template/store.php:454
+#: template/store.php:483 template/store.php:512
+msgid "Edit"
+msgstr ""
+
+#: admin/access_right/accountant.php:247 admin/access_right/member.php:247
+#: admin/access_right/staff_member.php:247
+msgid "Delete "
+msgstr ""
+
+#: admin/access_right/accountant.php:255 admin/access_right/member.php:255
+#: admin/access_right/staff_member.php:255 admin/admin.php:27
+#: admin/message/composemail.php:33 admin/notice/add_notice.php:85
+#: gmgt_function.php:275 gmgt_function.php:376 gmgt_function.php:5063
+#: template/message/composemail.php:223
+msgid "Staff Members"
+msgstr ""
+
+#: admin/access_right/accountant.php:304 admin/access_right/member.php:304
+#: admin/access_right/staff_member.php:304 admin/access_right_old/index.php:203
+#: admin/admin.php:23 gmgt_function.php:275 gmgt_function.php:378
+msgid "Membership Type"
+msgstr ""
+
+#: admin/access_right/accountant.php:353 admin/access_right/member.php:353
+#: admin/access_right/staff_member.php:353 admin/access_right_old/index.php:234
+#: admin/dasboard.php:174 admin/member/add_member.php:337
+#: fronted_template.php:357 gmgt_function.php:275 gmgt_function.php:380
+#: settings.php:1745 template/member.php:650
+msgid "Group"
+msgstr ""
+
+#: admin/access_right/accountant.php:402 admin/access_right/index.php:22
+#: admin/access_right/member.php:402 admin/access_right/staff_member.php:401
+#: admin/access_right_old/index.php:165 admin/access_right_old/index.php:265
+#: admin/admin.php:31 admin/dasboard.php:150
+#: admin/membership_payment/add_membership_payment.php:49
+#: admin/notice/add_notice.php:86 admin/nutrition/add_nutrition.php:82
+#: admin/payment/add_income.php:58 admin/payment/add_payment.php:34
+#: admin/store/sell_product.php:84 admin/workout-type/add_workout_type.php:91
+#: admin/workout/add_measurement.php:36 admin/workout/add_workout.php:140
+#: fronted_template.php:310 gmgt_function.php:275 gmgt_function.php:382
+#: gmgt_function.php:5067 settings.php:119 template/assign-workout.php:381
+#: template/notice.php:303 template/nutrition.php:345 template/payment.php:685
+#: template/store.php:563 template/workouts.php:542 template/workouts.php:652
+msgid "Member"
+msgstr ""
+
+#: admin/access_right/accountant.php:451 admin/access_right/member.php:451
+#: admin/access_right/staff_member.php:450 admin/access_right_old/index.php:296
+#: admin/admin.php:37 admin/workout-type/add_workout_type.php:243
+#: gmgt_function.php:275 gmgt_function.php:384 gmgt_function.php:1110
+#: gmgt_function.php:5270 template/assign-workout.php:181
+#: template/assign-workout.php:540
+msgid "Activity"
+msgstr ""
+
+#: admin/access_right/accountant.php:499 admin/access_right/member.php:499
+#: admin/access_right/staff_member.php:498 gmgt_function.php:386
+msgid "Class schedule"
+msgstr ""
+
+#: admin/access_right/accountant.php:548 admin/access_right/member.php:546
+#: admin/access_right/staff_member.php:547 admin/access_right_old/index.php:358
+#: gmgt_function.php:388
+msgid "Attendence"
+msgstr ""
+
+#: admin/access_right/accountant.php:596 admin/access_right/member.php:594
+#: admin/access_right/staff_member.php:593 admin/access_right_old/index.php:389
+#: gmgt_function.php:275 gmgt_function.php:390
+msgid "Assigned Workouts"
+msgstr ""
+
+#: admin/access_right/accountant.php:646 admin/access_right/member.php:644
+#: admin/access_right/staff_member.php:643 admin/access_right_old/index.php:420
+#: gmgt_function.php:275 gmgt_function.php:392
+msgid "Workouts"
+msgstr ""
+
+#: admin/access_right/accountant.php:695 admin/access_right/index.php:28
+#: admin/access_right/member.php:693 admin/access_right/staff_member.php:692
+#: admin/access_right_old/index.php:167 admin/access_right_old/index.php:451
+#: admin/admin.php:53 admin/message/composemail.php:34
+#: admin/notice/add_notice.php:87 gmgt_function.php:275 gmgt_function.php:394
+#: gmgt_function.php:5065 settings.php:118 template/message/composemail.php:224
+msgid "Accountant"
+msgstr ""
+
+#: admin/access_right/accountant.php:744 admin/access_right/member.php:742
+#: admin/access_right/staff_member.php:741 admin/access_right_old/index.php:482
+#: admin/report/feepayment_report.php:13 admin/report/feepayment_report.php:32
+#: admin/report/index.php:30 gmgt_function.php:275 gmgt_function.php:396
+msgid "Fee Payment"
+msgstr ""
+
+#: admin/access_right/accountant.php:794 admin/access_right/member.php:792
+#: admin/access_right/staff_member.php:791 admin/access_right_old/index.php:513
+#: admin/admin.php:55 admin/dasboard.php:314 admin/dasboard.php:341
+#: admin/dasboard.php:356 gmgt_function.php:275 gmgt_function.php:398
+msgid "Payment"
+msgstr ""
+
+#: admin/access_right/accountant.php:844 admin/access_right/member.php:842
+#: admin/access_right/staff_member.php:841 admin/admin.php:43
+#: gmgt_function.php:275 gmgt_function.php:400
+msgid "Product"
+msgstr ""
+
+#: admin/access_right/accountant.php:894 admin/access_right/member.php:892
+#: admin/access_right/staff_member.php:891 admin/access_right_old/index.php:576
+#: admin/admin.php:45 gmgt_function.php:275 gmgt_function.php:402
+msgid "Store"
+msgstr ""
+
+#: admin/access_right/accountant.php:943 admin/access_right/member.php:941
+#: admin/access_right/staff_member.php:940 admin/access_right_old/index.php:607
+#: admin/admin.php:59 gmgt_function.php:275 gmgt_function.php:404
+msgid "Newsletter"
+msgstr ""
+
+#: admin/access_right/accountant.php:991 admin/access_right/member.php:986
+#: admin/access_right/staff_member.php:988 admin/access_right_old/index.php:638
+#: admin/admin.php:57 admin/dasboard.php:187 fronted_template.php:382
+#: gmgt_function.php:275 gmgt_function.php:406
+msgid "Message"
+msgstr ""
+
+#: admin/access_right/accountant.php:1039 admin/access_right/member.php:1033
+#: admin/access_right/staff_member.php:1036
+#: admin/access_right_old/index.php:669 gmgt_function.php:408
+msgid "Notice"
+msgstr ""
+
+#: admin/access_right/accountant.php:1086 admin/access_right/member.php:1080
+#: admin/access_right/staff_member.php:1083
+#: admin/access_right_old/index.php:700 admin/admin.php:47
+#: gmgt_function.php:275 gmgt_function.php:410 gmgt_function.php:3762
+msgid "Nutrition Schedule"
+msgstr ""
+
+#: admin/access_right/accountant.php:1134 admin/access_right/member.php:1127
+#: admin/access_right/staff_member.php:1131
+#: admin/access_right_old/index.php:731 admin/admin.php:49
+#: gmgt_function.php:275 gmgt_function.php:412
+msgid "Reservation"
+msgstr ""
+
+#: admin/access_right/accountant.php:1180 admin/access_right/member.php:1173
+#: admin/access_right/staff_member.php:1177
+#: admin/access_right_old/index.php:762 gmgt_function.php:275
+#: gmgt_function.php:414
+msgid "Account"
+msgstr ""
+
+#: admin/access_right/accountant.php:1228 admin/access_right/member.php:1221
+#: admin/access_right/staff_member.php:1225
+#: admin/access_right_old/index.php:794 admin/alumni/view_member.php:386
+#: admin/member/view_member.php:508 admin/prospect/view_member.php:386
+#: gmgt_function.php:275 template/subscription_history.php:44
+#: template/view_member.php:521
+msgid "Subscription History"
+msgstr ""
+
+#: admin/access_right/accountant.php:1273 admin/access_right/member.php:1266
+#: admin/access_right/staff_member.php:1270
+#: admin/access_right_old/index.php:823 admin/accountant/add_accountant.php:162
+#: admin/activity/add_activity.php:204 admin/class-schedule/add_class.php:319
+#: admin/class-schedule/add_class.php:545 admin/email-template/index.php:119
+#: admin/email-template/index.php:158 admin/email-template/index.php:200
+#: admin/email-template/index.php:245 admin/email-template/index.php:285
+#: admin/email-template/index.php:328 admin/email-template/index.php:369
+#: admin/email-template/index.php:409 admin/email-template/index.php:448
+#: admin/email-template/index.php:494 admin/email-template/index.php:537
+#: admin/email-template/index.php:579 admin/email-template/index.php:617
+#: admin/email-template/index.php:657 admin/general-settings.php:493
+#: admin/group/add_group.php:44 admin/member/add_member.php:809
+#: admin/member/add_member.php:1067 admin/member/add_member.php:1462
+#: admin/membership_payment/add_membership_payment.php:110
+#: admin/news-letter/index.php:120 admin/payment/add_payment.php:115
+#: admin/product/add_product.php:47 admin/reservation/add_reservation.php:205
+#: admin/staff-members/add_staff.php:254 admin/store/sell_product.php:260
+#: admin/store/sell_product.php:307 admin/workout/add_workout.php:185
+#: template/account.php:194 template/account.php:270 template/activity.php:320
+#: template/class-schedule.php:608 template/group.php:337
+#: template/member.php:1004 template/news_letter.php:113
+#: template/product.php:283 template/reservation.php:496 template/store.php:722
+#: template/workouts.php:596
+msgid "Save"
+msgstr ""
+
+#: admin/access_right/index.php:25 admin/access_right_old/index.php:166
+#: admin/access_right_old/index.php:172 admin/alumni/view_member.php:117
+#: admin/dasboard.php:162 admin/dasboard.php:451 admin/dasboard.php:465
+#: admin/member/view_member.php:134 admin/prospect/view_member.php:117
+#: fronted_template.php:333 template/view_member.php:139
+msgid "Staff Member"
+msgstr ""
+
+#: admin/access_right/member.php:237
+msgid "Member Access Right"
+msgstr ""
+
+#: admin/access_right/staff_member.php:237
+msgid "Staff Member Access Right"
+msgstr ""
+
+#: admin/access_right_old/index.php:159
+msgid "Access Right Settings"
+msgstr ""
+
+#: admin/access_right_old/index.php:327 admin/admin.php:29
+#: gmgt_function.php:275 template/class-schedule.php:247
+msgid "Class Schedule"
+msgstr ""
+
+#: admin/access_right_old/index.php:545
+msgid "product"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:33 admin/activity/add_activity.php:229
+#: admin/class-schedule/add_class.php:348 admin/member/add_member.php:296
+#: admin/member/add_member.php:834 admin/staff-members/add_staff.php:55
+#: settings.php:1704 template/member.php:595
+msgid "First Name"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:39 admin/activity/add_activity.php:235
+#: admin/class-schedule/add_class.php:354 admin/member/add_member.php:302
+#: admin/member/add_member.php:840 admin/staff-members/add_staff.php:61
+#: settings.php:1710 template/member.php:601
+msgid "Middle Name"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:45 admin/activity/add_activity.php:241
+#: admin/class-schedule/add_class.php:360 admin/member/add_member.php:308
+#: admin/member/add_member.php:846 admin/staff-members/add_staff.php:67
+#: settings.php:1716 template/member.php:607
+msgid "Last Name"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:51 admin/activity/add_activity.php:247
+#: admin/alumni/view_member.php:83 admin/class-schedule/add_class.php:366
+#: admin/member/add_member.php:315 admin/member/add_member.php:852
+#: admin/member/view_member.php:80 admin/prospect/view_member.php:83
+#: admin/staff-members/add_staff.php:73 settings.php:1723
+#: template/member.php:614 template/view_member.php:87
+msgid "Gender"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:55 admin/activity/add_activity.php:251
+#: admin/class-schedule/add_class.php:370 admin/member/add_member.php:319
+#: admin/member/add_member.php:856 admin/staff-members/add_staff.php:77
+#: settings.php:1727 template/member.php:618
+msgid "Male"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:58 admin/activity/add_activity.php:254
+#: admin/class-schedule/add_class.php:373 admin/member/add_member.php:322
+#: admin/member/add_member.php:859 admin/staff-members/add_staff.php:80
+#: settings.php:1730 template/member.php:621
+msgid "Female"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:63 admin/activity/add_activity.php:259
+#: admin/class-schedule/add_class.php:378 admin/member/add_member.php:328
+#: admin/member/add_member.php:865 admin/staff-members/add_staff.php:85
+#: settings.php:1736 template/account.php:215 template/member.php:627
+msgid "Date of birth"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:71 admin/activity/add_activity.php:314
+#: admin/class-schedule/add_class.php:449 admin/member/add_member.php:934
+#: admin/staff-members/add_staff.php:152 template/account.php:224
+msgid "Home Town Address"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:80 admin/activity/add_activity.php:322
+#: admin/class-schedule/add_class.php:458 admin/member/add_member.php:371
+#: admin/member/add_member.php:943 admin/staff-members/add_staff.php:159
+#: settings.php:1778 template/account.php:235 template/member.php:677
+msgid "City"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:89 admin/activity/add_activity.php:330
+#: admin/class-schedule/add_class.php:467 admin/member/add_member.php:392
+#: admin/member/add_member.php:966 admin/staff-members/add_staff.php:180
+#: settings.php:1799 template/member.php:684
+msgid "Mobile Number"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:100 admin/activity/add_activity.php:341
+#: admin/class-schedule/add_class.php:478 admin/member/add_member.php:403
+#: admin/member/add_member.php:977 admin/staff-members/add_staff.php:190
+#: settings.php:1810 template/account.php:247 template/member.php:695
+msgid "Phone"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:107 admin/activity/add_activity.php:348
+#: admin/alumni/view_member.php:59 admin/class-schedule/add_class.php:485
+#: admin/general-settings.php:161 admin/member/add_member.php:410
+#: admin/member/add_member.php:984 admin/member/view_member.php:56
+#: admin/prospect/view_member.php:59 admin/setupform/index.php:82
+#: admin/staff-members/add_staff.php:197 admin/workout/index.php:231
+#: admin/workout/index.php:243 settings.php:1817 template/account.php:258
+#: template/member.php:702 template/view_member.php:63
+#: template/workouts.php:272 template/workouts.php:285
+msgid "Email"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:114 admin/activity/add_activity.php:358
+#: admin/alumni/view_member.php:99 admin/class-schedule/add_class.php:495
+#: admin/member/add_member.php:481 admin/member/add_member.php:994
+#: admin/member/view_member.php:116 admin/prospect/view_member.php:99
+#: admin/staff-members/add_staff.php:207 settings.php:1889
+#: template/member.php:752 template/view_member.php:122
+msgid "User Name"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:121 admin/activity/add_activity.php:365
+#: admin/class-schedule/add_class.php:502 admin/email-template/index.php:195
+#: admin/member/add_member.php:488 admin/member/add_member.php:1001
+#: admin/staff-members/add_staff.php:214 gmgt_function.php:862
+#: settings.php:1896 template/member.php:759
+msgid "Password"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:127 admin/activity/add_activity.php:371
+#: admin/class-schedule/add_class.php:508 admin/member/add_member.php:495
+#: admin/member/add_member.php:1007 admin/staff-members/add_staff.php:220
+#: admin/workout/add_measurement.php:127 settings.php:1903
+#: template/member.php:765 template/workouts.php:753
+msgid "Image"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:133
+#: admin/accountant/add_accountant.php:134 admin/activity/add_activity.php:377
+#: admin/activity/add_activity.php:378 admin/class-schedule/add_class.php:514
+#: admin/class-schedule/add_class.php:515 admin/general-settings.php:194
+#: admin/member/add_member.php:501 admin/member/add_member.php:502
+#: admin/member/add_member.php:1013 admin/member/add_member.php:1014
+#: admin/staff-members/add_staff.php:226 admin/staff-members/add_staff.php:227
+#: admin/workout/add_measurement.php:133 admin/workout/add_measurement.php:134
+#: template/group.php:311 template/member.php:772 template/membership.php:455
+#: template/workouts.php:760
+msgid "Upload image"
+msgstr ""
+
+#: admin/accountant/add_accountant.php:162 admin/accountant/index.php:138
+msgid "Add Accountant"
+msgstr ""
+
+#: admin/accountant/index.php:38 admin/accountant/index.php:63
+#: admin/member/index.php:162 admin/member/index.php:186
+#: admin/staff-members/index.php:39 admin/staff-members/index.php:63
+#: admin/workout/index.php:132 admin/workout/index.php:156
+#: template/workouts.php:163
+msgid "Sorry, only JPG, JPEG, PNG & GIF And BMP files are allowed."
+msgstr ""
+
+#: admin/accountant/index.php:71 admin/alumni/index.php:180
+#: admin/member/index.php:194 admin/prospect/index.php:180
+#: admin/staff-members/index.php:71 template/alumni.php:53
+#: template/member.php:65 template/prospect.php:53
+msgid "Username Or Email id exists already."
+msgstr ""
+
+#: admin/accountant/index.php:96 admin/activity/index.php:58
+#: admin/alumni/index.php:208 admin/attendence/index.php:73
+#: admin/class-schedule/index.php:138 admin/group/index.php:55
+#: admin/member/index.php:216 admin/membership/index.php:92
+#: admin/membership_payment/index.php:76 admin/notice/index.php:56
+#: admin/nutrition/index.php:61 admin/payment/index.php:126
+#: admin/product/index.php:58 admin/prospect/index.php:208
+#: admin/reservation/index.php:144 admin/staff-members/index.php:96
+#: admin/store/index.php:69 admin/workout-type/index.php:62
+#: admin/workout/index.php:92 template/activity.php:76 template/alumni.php:81
+#: template/assign-workout.php:89 template/attendence.php:48
+#: template/class-schedule.php:162 template/group.php:101
+#: template/member.php:84 template/membership.php:92
+#: template/membership_payment.php:165 template/notice.php:56
+#: template/nutrition.php:81 template/payment.php:183 template/product.php:84
+#: template/prospect.php:81 template/reservation.php:163 template/store.php:127
+#: template/workouts.php:185
+msgid "Record inserted successfully"
+msgstr ""
+
+#: admin/accountant/index.php:103 admin/general-settings.php:88
+#: admin/staff-members/index.php:103
+msgid "Record updated successfully"
+msgstr ""
+
+#: admin/accountant/index.php:113 admin/activity/index.php:75
+#: admin/alumni/index.php:225 admin/attendence/index.php:90
+#: admin/class-schedule/index.php:155 admin/group/index.php:70
+#: admin/member/index.php:233 admin/membership/index.php:109
+#: admin/membership_payment/index.php:91 admin/notice/index.php:71
+#: admin/nutrition/index.php:78 admin/payment/index.php:143
+#: admin/product/index.php:75 admin/prospect/index.php:225
+#: admin/reservation/index.php:161 admin/staff-members/index.php:113
+#: admin/store/index.php:86 admin/workout-type/index.php:79
+#: admin/workout/index.php:109 template/activity.php:93 template/alumni.php:98
+#: template/assign-workout.php:106 template/attendence.php:65
+#: template/class-schedule.php:176 template/group.php:118
+#: template/member.php:95 template/membership.php:109
+#: template/membership_payment.php:182 template/notice.php:73
+#: template/nutrition.php:98 template/payment.php:200 template/product.php:100
+#: template/prospect.php:98 template/reservation.php:180 template/store.php:144
+#: template/workouts.php:200
+msgid "Record deleted successfully"
+msgstr ""
+
+#: admin/accountant/index.php:127
+msgid "Accountant  List"
+msgstr ""
+
+#: admin/accountant/index.php:132
+msgid "Edit Accountant"
+msgstr ""
+
+#: admin/accountant/index.php:167 admin/accountant/index.php:177
+#: admin/alumni/index.php:287 admin/alumni/index.php:301
+#: admin/group/index.php:121 admin/group/index.php:129
+#: admin/member/index.php:344 admin/member/index.php:359
+#: admin/membership/index.php:195 admin/membership/index.php:206
+#: admin/nutrition/index.php:131 admin/nutrition/index.php:139
+#: admin/prospect/index.php:288 admin/prospect/index.php:303
+#: admin/staff-members/index.php:171 admin/staff-members/index.php:181
+#: admin/workout-type/index.php:135 admin/workout-type/index.php:145
+#: admin/workout/index.php:225 admin/workout/index.php:237
+#: gmgt_function.php:3928 template/accountant.php:40 template/accountant.php:48
+#: template/alumni.php:289 template/alumni.php:303
+#: template/assign-workout.php:222 template/assign-workout.php:230
+#: template/group.php:183 template/group.php:191 template/member.php:396
+#: template/member.php:410 template/membership.php:185
+#: template/membership.php:203 template/nutrition.php:270
+#: template/nutrition.php:278 template/prospect.php:289
+#: template/prospect.php:303 template/staff_member.php:42
+#: template/staff_member.php:51 template/workouts.php:266
+#: template/workouts.php:279
+msgid "Photo"
+msgstr ""
+
+#: admin/accountant/index.php:168 admin/accountant/index.php:178
+msgid "Accountant Name"
+msgstr ""
+
+#: admin/accountant/index.php:169 admin/accountant/index.php:179
+msgid "Department"
+msgstr ""
+
+#: admin/accountant/index.php:170 admin/accountant/index.php:180
+msgid "Accountant Email"
+msgstr ""
+
+#: admin/accountant/index.php:171 admin/accountant/index.php:181
+#: admin/alumni/index.php:295 admin/alumni/index.php:309
+#: admin/alumni/view_member.php:66 admin/member/index.php:353
+#: admin/member/index.php:368 admin/member/view_member.php:63
+#: admin/prospect/index.php:297 admin/prospect/index.php:312
+#: admin/prospect/view_member.php:66 admin/staff-members/index.php:175
+#: admin/staff-members/index.php:185 template/accountant.php:43
+#: template/accountant.php:51 template/staff_member.php:46
+#: template/staff_member.php:55 template/view_member.php:70
+msgid "Mobile No"
+msgstr ""
+
+#: admin/accountant/index.php:172 admin/accountant/index.php:182
+#: admin/activity/index.php:130 admin/activity/index.php:138
+#: admin/alumni/index.php:296 admin/alumni/index.php:310
+#: admin/class-schedule/index.php:221 admin/class-schedule/index.php:231
+#: admin/group/index.php:124 admin/group/index.php:132
+#: admin/member/index.php:354 admin/member/index.php:369
+#: admin/membership/index.php:201 admin/membership/index.php:212
+#: admin/membership/view-activity.php:61 admin/membership/view-activity.php:71
+#: admin/membership_payment/index.php:167
+#: admin/membership_payment/index.php:181 admin/notice/index.php:133
+#: admin/notice/index.php:144 admin/nutrition/index.php:134
+#: admin/nutrition/index.php:142 admin/payment/expense-list.php:28
+#: admin/payment/expense-list.php:36 admin/payment/income-list.php:48
+#: admin/payment/income-list.php:61 admin/payment/index.php:223
+#: admin/payment/index.php:232 admin/product/index.php:132
+#: admin/product/index.php:140 admin/prospect/index.php:298
+#: admin/prospect/index.php:313 admin/reservation/index.php:231
+#: admin/reservation/index.php:242 admin/staff-members/index.php:176
+#: admin/staff-members/index.php:186 admin/store/index.php:170
+#: admin/store/index.php:183 admin/workout-type/index.php:140
+#: admin/workout-type/index.php:150 admin/workout/index.php:232
+#: admin/workout/index.php:244 admin/workout/measurement_list.php:27
+#: admin/workout/measurement_list.php:37 gmgt_function.php:1563
+#: gmgt_function.php:3932 template/activity.php:165 template/activity.php:175
+#: template/alumni.php:296 template/alumni.php:310
+#: template/assign-workout.php:225 template/assign-workout.php:233
+#: template/class-schedule.php:350 template/class-schedule.php:362
+#: template/group.php:186 template/group.php:194 template/member.php:403
+#: template/member.php:417 template/membership.php:194
+#: template/membership.php:212 template/membership_payment.php:228
+#: template/membership_payment.php:242 template/notice.php:133
+#: template/notice.php:147 template/nutrition.php:273
+#: template/nutrition.php:281 template/payment.php:344 template/payment.php:357
+#: template/payment.php:905 template/payment.php:915 template/product.php:155
+#: template/product.php:170 template/prospect.php:296 template/prospect.php:310
+#: template/reservation.php:264 template/reservation.php:275
+#: template/store.php:256 template/store.php:270 template/workouts.php:273
+#: template/workouts.php:286
+msgid "Action"
+msgstr ""
+
+#: admin/accountant/index.php:214 admin/activity/index.php:155
+#: admin/alumni/index.php:349 admin/class-schedule/index.php:263
+#: admin/group/index.php:161 admin/member/index.php:406
+#: admin/membership/index.php:238 admin/membership/view-activity.php:91
+#: admin/membership_payment/index.php:243
+#: admin/membership_payment/index.php:267 admin/notice/index.php:180
+#: admin/payment/expense-list.php:57 admin/payment/income-list.php:172
+#: admin/payment/income-list.php:195 admin/payment/index.php:259
+#: admin/product/index.php:156 admin/prospect/index.php:353
+#: admin/reservation/index.php:263 admin/staff-members/index.php:218
+#: admin/store/index.php:295 admin/store/index.php:313
+#: admin/workout-type/index.php:194 admin/workout/index.php:281
+#: admin/workout/measurement_list.php:61 template/activity.php:229
+#: template/alumni.php:405 template/assign-workout.php:285
+#: template/class-schedule.php:412 template/group.php:265
+#: template/membership.php:293 template/message/view_message.php:76
+#: template/notice.php:257 template/payment.php:495 template/payment.php:526
+#: template/payment.php:562 template/payment.php:593 template/payment.php:625
+#: template/payment.php:958 template/product.php:218 template/prospect.php:405
+#: template/reservation.php:322 template/store.php:402 template/store.php:428
+#: template/store.php:462 template/store.php:491 template/store.php:520
+msgid "Do you really want to delete this record?"
+msgstr ""
+
+#: admin/accountant/index.php:215 admin/activity/index.php:156
+#: admin/alumni/index.php:350 admin/class-schedule/index.php:264
+#: admin/class-schedule/schedule_list.php:41 admin/group/index.php:162
+#: admin/member/index.php:407 admin/membership/index.php:239
+#: admin/membership/view-activity.php:92 admin/membership_payment/index.php:244
+#: admin/membership_payment/index.php:268 admin/message/view_message.php:66
+#: admin/message/view_message.php:82 admin/notice/index.php:181
+#: admin/payment/add_expense.php:117 admin/payment/add_expense.php:155
+#: admin/payment/add_income.php:151 admin/payment/add_income.php:186
+#: admin/payment/expense-list.php:58 admin/payment/income-list.php:173
+#: admin/payment/income-list.php:196 admin/payment/index.php:260
+#: admin/product/index.php:157 admin/prospect/index.php:354
+#: admin/reservation/index.php:264 admin/staff-members/index.php:219
+#: admin/store/index.php:296 admin/store/index.php:314
+#: admin/store/sell_product.php:171 admin/store/sell_product.php:206
+#: admin/store/sell_product.php:326 admin/workout-type/index.php:195
+#: admin/workout/index.php:282 admin/workout/measurement_list.php:62
+#: gmgt_function.php:3971 template/activity.php:230 template/alumni.php:406
+#: template/assign-workout.php:286 template/class-schedule.php:413
+#: template/class-schedule.php:649 template/group.php:266
+#: template/membership.php:294 template/message/view_message.php:65
+#: template/message/view_message.php:77 template/message/view_message.php:97
+#: template/notice.php:258 template/payment.php:496 template/payment.php:527
+#: template/payment.php:563 template/payment.php:594 template/payment.php:626
+#: template/payment.php:780 template/payment.php:815 template/payment.php:959
+#: template/payment.php:1086 template/payment.php:1122 template/product.php:219
+#: template/prospect.php:406 template/reservation.php:323
+#: template/store.php:403 template/store.php:429 template/store.php:463
+#: template/store.php:492 template/store.php:521 template/store.php:647
+#: template/store.php:682 template/store.php:737
+msgid "Delete"
+msgstr ""
+
+#: admin/activity/add_activity.php:118 admin/activity/index.php:128
+#: admin/activity/index.php:136 admin/membership/view-activity.php:58
+#: admin/membership/view-activity.php:68 template/activity.php:162
+#: template/activity.php:172 template/activity.php:264
+msgid "Activity Category"
+msgstr ""
+
+#: admin/activity/add_activity.php:121 template/activity.php:267
+msgid "Select Activity Category"
+msgstr ""
+
+#: admin/activity/add_activity.php:141 admin/activity/add_activity.php:287
+#: admin/activity/add_activity.php:307 admin/activity/add_activity.php:436
+#: admin/activity/add_activity.php:455 admin/activity/add_activity.php:521
+#: admin/class-schedule/add_class.php:411
+#: admin/class-schedule/add_class.php:440 admin/member/add_member.php:609
+#: admin/member/add_member.php:644 admin/member/add_member.php:898
+#: admin/member/add_member.php:925 admin/member/add_member.php:1117
+#: admin/member/add_member.php:1142 admin/member/add_member.php:1243
+#: admin/membership/add_membership - Copy.php:62 Copy.php:89 Copy.php:189
+#: admin/membership/add_membership.php:64
+#: admin/membership/add_membership.php:91
+#: admin/membership/add_membership.php:191
+#: admin/reservation/add_reservation.php:90
+#: admin/staff-members/add_staff.php:118 admin/staff-members/add_staff.php:145
+#: admin/workout-type/add_workout_type.php:139 template/activity.php:287
+#: template/assign-workout.php:427 template/member.php:855
+#: template/member.php:893 template/membership.php:359
+#: template/membership.php:387 template/membership.php:438
+#: template/reservation.php:410
+msgid "Add Or Remove"
+msgstr ""
+
+#: admin/activity/add_activity.php:144 template/activity.php:290
+msgid "Activity Title"
+msgstr ""
+
+#: admin/activity/add_activity.php:150 template/activity.php:297
+msgid "Assign to Staff Member"
+msgstr ""
+
+#: admin/activity/add_activity.php:157 admin/class-schedule/add_class.php:118
+#: admin/member/add_member.php:1306 admin/reservation/add_reservation.php:180
+#: template/activity.php:303 template/class-schedule.php:461
+#: template/member.php:812
+msgid "Select Staff Member "
+msgstr ""
+
+#: admin/activity/add_activity.php:173 admin/activity/add_activity.php:174
+#: admin/activity/add_activity.php:217 admin/class-schedule/add_class.php:143
+#: admin/class-schedule/add_class.php:144
+#: admin/class-schedule/add_class.php:176
+#: admin/class-schedule/add_class.php:177
+#: admin/class-schedule/add_class.php:336 admin/member/add_member.php:579
+#: admin/member/add_member.php:580 admin/member/add_member.php:673
+#: admin/member/add_member.php:674 admin/member/add_member.php:822
+#: admin/staff-members/index.php:138
+msgid "Add Staff Member"
+msgstr ""
+
+#: admin/activity/add_activity.php:179 admin/class-schedule/add_class.php:203
+#: admin/dasboard.php:197 admin/member/add_member.php:693
+#: admin/member/add_member.php:1368
+#: admin/membership_payment/add_membership_payment.php:66
+#: admin/report/index.php:22 admin/report/membership_report.php:19
+#: admin/report/membership_status_report.php:19 admin/workout/index.php:227
+#: admin/workout/index.php:239 settings.php:2046
+#: template/class-schedule.php:513 template/member.php:936
+#: template/membership.php:152 template/workouts.php:268
+#: template/workouts.php:281
+msgid "Membership"
+msgstr ""
+
+#: admin/activity/add_activity.php:199 admin/activity/add_activity.php:200
+#: admin/activity/add_activity.php:406 admin/activity/add_activity.php:550
+#: admin/member/add_member.php:711 admin/member/add_member.php:712
+#: admin/member/add_member.php:1083 admin/member/add_member.php:1272
+#: admin/membership/add_membership - Copy.php:237
+#: admin/membership/add_membership.php:239 admin/membership/index.php:135
+#: template/membership.php:170 template/membership.php:482
+msgid "Add Membership"
+msgstr ""
+
+#: admin/activity/add_activity.php:226 admin/class-schedule/add_class.php:345
+#: admin/member/add_member.php:286 admin/member/add_member.php:831
+#: admin/staff-members/add_staff.php:52 settings.php:1694
+#: template/member.php:585
+msgid "Personal Information"
+msgstr ""
+
+#: admin/activity/add_activity.php:266 admin/class-schedule/add_class.php:385
+#: admin/member/add_member.php:872 admin/staff-members/add_staff.php:94
+msgid "Assign Role"
+msgstr ""
+
+#: admin/activity/add_activity.php:270 admin/class-schedule/add_class.php:389
+#: admin/member/add_member.php:876 admin/staff-members/add_staff.php:97
+msgid "Select Role"
+msgstr ""
+
+#: admin/activity/add_activity.php:290 admin/class-schedule/add_class.php:414
+#: admin/member/add_member.php:901 admin/staff-members/add_staff.php:122
+msgid "Specialization"
+msgstr ""
+
+#: admin/activity/add_activity.php:311 admin/class-schedule/add_class.php:446
+#: admin/member/add_member.php:359 admin/member/add_member.php:931
+#: admin/staff-members/add_staff.php:149 settings.php:1766
+#: template/member.php:665
+msgid "Contact Information"
+msgstr ""
+
+#: admin/activity/add_activity.php:355 admin/class-schedule/add_class.php:492
+#: admin/member/add_member.php:478 admin/member/add_member.php:991
+#: admin/staff-members/add_staff.php:204 settings.php:1886
+#: template/member.php:749
+msgid "Login Information"
+msgstr ""
+
+#: admin/activity/add_activity.php:390 admin/class-schedule/add_class.php:545
+#: admin/member/add_member.php:1027 admin/staff-members/add_staff.php:254
+msgid "Add Staff"
+msgstr ""
+
+#: admin/activity/add_activity.php:413 admin/member/add_member.php:1090
+#: admin/membership/add_membership - Copy.php:33
+#: admin/membership/add_membership.php:35 admin/membership/index.php:196
+#: admin/membership/index.php:207 admin/membership/view-activity.php:60
+#: admin/membership/view-activity.php:70 admin/report/membership_report.php:31
+#: template/membership.php:186 template/membership.php:204
+#: template/membership.php:330
+msgid "Membership Name"
+msgstr ""
+
+#: admin/activity/add_activity.php:419 admin/member/add_member.php:1096
+#: admin/membership/add_membership - Copy.php:39
+#: admin/membership/add_membership.php:41 template/membership.php:336
+msgid "Membership Category"
+msgstr ""
+
+#: admin/activity/add_activity.php:422 admin/member/add_member.php:1099
+#: admin/membership/add_membership - Copy.php:42
+#: admin/membership/add_membership.php:44 template/membership.php:339
+msgid "Select Membership Category"
+msgstr ""
+
+#: admin/activity/add_activity.php:439 admin/member/add_member.php:1120
+#: admin/membership/add_membership - Copy.php:65
+#: admin/membership/add_membership.php:67 admin/membership/index.php:198
+#: admin/membership/index.php:209 template/membership.php:187
+#: template/membership.php:205 template/membership.php:362
+#: template/membership_details.php:78
+msgid "Membership Period"
+msgstr ""
+
+#: admin/activity/add_activity.php:442 admin/member/add_member.php:1124
+#: admin/membership/add_membership - Copy.php:69
+#: admin/membership/add_membership.php:71 template/membership.php:365
+msgid "Select Membership Period"
+msgstr ""
+
+#: admin/activity/add_activity.php:456 admin/member/add_member.php:1143
+#: admin/membership/add_membership - Copy.php:90
+#: admin/membership/add_membership.php:92 template/membership.php:388
+msgid "Enter Total Number of Days"
+msgstr ""
+
+#: admin/activity/add_activity.php:462 admin/member/add_member.php:1149
+#: admin/membership/add_membership - Copy.php:96
+#: admin/membership/add_membership.php:98 template/membership.php:392
+msgid "Members Limit"
+msgstr ""
+
+#: admin/activity/add_activity.php:466 admin/activity/add_activity.php:480
+#: admin/member/add_member.php:1153 admin/member/add_member.php:1183
+#: admin/membership/add_membership - Copy.php:100 Copy.php:129
+#: admin/membership/add_membership.php:102
+#: admin/membership/add_membership.php:131 template/membership.php:396
+msgid "limited"
+msgstr ""
+
+#: admin/activity/add_activity.php:469 admin/activity/add_activity.php:483
+#: admin/member/add_member.php:1156 admin/member/add_member.php:1186
+#: admin/membership/add_membership - Copy.php:103 Copy.php:132
+#: admin/membership/add_membership.php:105
+#: admin/membership/add_membership.php:134 template/membership.php:399
+msgid "unlimited"
+msgstr ""
+
+#: admin/activity/add_activity.php:476 admin/member/add_member.php:1179
+#: admin/membership/add_membership - Copy.php:125
+msgid "Classic Limit"
+msgstr ""
+
+#: admin/activity/add_activity.php:491 admin/member/add_member.php:1210
+#: admin/membership/add_membership - Copy.php:154
+#: admin/membership/add_membership.php:156 template/membership.php:404
+msgid "Membership Amount"
+msgstr ""
+
+#: admin/activity/add_activity.php:497 admin/member/add_member.php:1216
+#: admin/membership/add_membership - Copy.php:160
+#: admin/membership/add_membership.php:162 admin/membership/index.php:199
+#: admin/membership/index.php:210 settings.php:1146 template/membership.php:188
+#: template/membership.php:206 template/membership.php:410
+msgid "Installment Plan"
+msgstr ""
+
+#: admin/activity/add_activity.php:504 admin/member/add_member.php:1223
+#: admin/membership/add_membership - Copy.php:167
+#: admin/membership/add_membership.php:169 template/membership.php:417
+msgid "Select Installment Plan"
+msgstr ""
+
+#: admin/activity/add_activity.php:525 admin/member/add_member.php:1247
+#: admin/membership/add_membership - Copy.php:193
+#: admin/membership/add_membership.php:195 admin/membership/index.php:200
+#: admin/membership/index.php:211 template/membership.php:189
+#: template/membership.php:207 template/membership.php:442
+msgid "Signup Fee"
+msgstr ""
+
+#: admin/activity/add_activity.php:531 admin/member/add_member.php:1253
+#: admin/membership/add_membership - Copy.php:217
+#: admin/membership/add_membership.php:219
+msgid "Membership Description"
+msgstr ""
+
+#: admin/activity/add_activity.php:538 admin/member/add_member.php:1260
+#: admin/membership/add_membership - Copy.php:224
+#: admin/membership/add_membership.php:226 template/membership.php:448
+msgid "Membership Image"
+msgstr ""
+
+#: admin/activity/add_activity.php:542 admin/general-settings.php:206
+#: admin/general-settings.php:207 admin/group/add_group.php:35
+#: admin/member/add_member.php:1059 admin/member/add_member.php:1264
+#: admin/membership/add_membership - Copy.php:228
+#: admin/membership/add_membership.php:230
+msgid "Upload Cover Image"
+msgstr ""
+
+#: admin/activity/add_activity.php:543 admin/member/add_member.php:1265
+#: admin/membership/add_membership - Copy.php:229
+#: admin/membership/add_membership.php:231
+msgid "Upload Membership Image"
+msgstr ""
+
+#: admin/activity/index.php:65 admin/alumni/index.php:215
+#: admin/attendence/index.php:80 admin/class-schedule/index.php:145
+#: admin/group/index.php:61 admin/member/index.php:223
+#: admin/membership/index.php:99 admin/membership_payment/index.php:82
+#: admin/notice/index.php:62 admin/nutrition/index.php:68
+#: admin/payment/index.php:133 admin/product/index.php:65
+#: admin/prospect/index.php:215 admin/reservation/index.php:151
+#: admin/store/index.php:76 admin/workout-type/index.php:69
+#: admin/workout/index.php:99 template/account.php:133 template/activity.php:83
+#: template/alumni.php:88 template/assign-workout.php:96
+#: template/attendence.php:55 template/class-schedule.php:169
+#: template/group.php:108 template/member.php:90 template/membership.php:99
+#: template/membership_payment.php:172 template/notice.php:63
+#: template/nutrition.php:88 template/payment.php:190 template/product.php:91
+#: template/prospect.php:88 template/reservation.php:170 template/store.php:134
+#: template/workouts.php:191
+msgid "Record updated successfully."
+msgstr ""
+
+#: admin/activity/index.php:88 template/activity.php:128
+msgid "Activity List"
+msgstr ""
+
+#: admin/activity/index.php:93
+msgid "Edit Activity"
+msgstr ""
+
+#: admin/activity/index.php:99 admin/membership/view-activity.php:46
+#: template/activity.php:145
+msgid "Add Activity"
+msgstr ""
+
+#: admin/activity/index.php:127 admin/activity/index.php:135
+#: admin/membership/view-activity.php:57 admin/membership/view-activity.php:67
+#: admin/workout-type/index.php:138 admin/workout-type/index.php:148
+#: template/activity.php:161 template/activity.php:171
+msgid "Activity Name"
+msgstr ""
+
+#: admin/activity/index.php:129 admin/activity/index.php:137
+#: admin/membership/view-activity.php:59 admin/membership/view-activity.php:69
+#: template/activity.php:163 template/activity.php:173
+msgid "Activity Trainer"
+msgstr ""
+
+#: admin/admin.php:16
+msgid "WPGYM"
+msgstr ""
+
+#: admin/admin.php:19
+msgid "License Settings"
+msgstr ""
+
+#: admin/admin.php:21 fronted_template.php:254 gmgt_function.php:898
+msgid "Dashboard"
+msgstr ""
+
+#: admin/admin.php:25
+msgid "Groups"
+msgstr ""
+
+#: admin/admin.php:39 admin/workout-type/index.php:103
+#: template/assign-workout.php:137
+msgid "Assign Workout"
+msgstr ""
+
+#: admin/admin.php:41
+msgid "Daily Workout"
+msgstr ""
+
+#: admin/admin.php:51 admin/alumni/index.php:97 admin/member/index.php:96
+#: admin/prospect/index.php:97 admin/report/index.php:24 gmgt_function.php:275
+#: template/alumni.php:170 template/alumni.php:218 template/member.php:151
+#: template/member.php:199 template/prospect.php:170 template/prospect.php:218
+msgid "Attendance"
+msgstr ""
+
+#: admin/admin.php:54 settings.php:1404
+msgid "Membership Payment"
+msgstr ""
+
+#: admin/admin.php:61 gmgt_function.php:275
+msgid "Notice + Event"
+msgstr ""
+
+#: admin/admin.php:63
+msgid "Report"
+msgstr ""
+
+#: admin/admin.php:65
+msgid "Email Template"
+msgstr ""
+
+#: admin/admin.php:67 admin/general-settings.php:113
+msgid "General Settings"
+msgstr ""
+
+#: admin/admin.php:69
+msgid "Access Right"
+msgstr ""
+
+#: admin/alumni/index.php:57 admin/member/index.php:62
+#: admin/member/index.php:409 admin/prospect/index.php:57
+#: template/alumni.php:360 template/alumni.php:411 template/member.php:461
+#: template/member.php:495 template/member.php:538 template/prospect.php:360
+#: template/prospect.php:411
+msgid "View Attendance"
+msgstr ""
+
+#: admin/alumni/index.php:63 admin/dasboard.php:114 admin/member/index.php:68
+#: admin/notice/index.php:131 admin/notice/index.php:142
+#: admin/nutrition/add_nutrition.php:101 admin/prospect/index.php:63
+#: admin/report/attendance_report.php:58
+#: admin/workout-type/add_workout_type.php:149 fronted_template.php:132
+#: gmgt_function.php:1075 template/alumni.php:183
+#: template/assign-workout.php:436 template/member.php:161
+#: template/notice.php:129 template/notice.php:143 template/nutrition.php:365
+#: template/prospect.php:183
+msgid "Start Date"
+msgstr ""
+
+#: admin/alumni/index.php:72 admin/dasboard.php:114 admin/member/index.php:73
+#: admin/notice/index.php:132 admin/notice/index.php:143
+#: admin/nutrition/add_nutrition.php:110 admin/prospect/index.php:72
+#: admin/report/attendance_report.php:66
+#: admin/workout-type/add_workout_type.php:156 fronted_template.php:132
+#: gmgt_function.php:1081 template/alumni.php:192
+#: template/assign-workout.php:443 template/member.php:166
+#: template/notice.php:130 template/notice.php:144 template/nutrition.php:373
+#: template/prospect.php:192
+msgid "End Date"
+msgstr ""
+
+#: admin/alumni/index.php:80 admin/member/index.php:80
+#: admin/member/index.php:321 admin/prospect/index.php:80
+#: admin/report/attendance_report.php:73 template/alumni.php:200
+#: template/member.php:174 template/member.php:312 template/prospect.php:200
+msgid "Go"
+msgstr ""
+
+#: admin/alumni/index.php:95 admin/attendence/index.php:124
+#: admin/attendence/index.php:206 admin/attendence/staff-attendence.php:35
+#: admin/attendence/staff-attendence.php:58 admin/member/index.php:94
+#: admin/message/inbox.php:33 admin/payment/add_expense.php:63
+#: admin/payment/add_income.php:96 admin/payment/expense-list.php:27
+#: admin/payment/expense-list.php:35 admin/payment/income-list.php:46
+#: admin/payment/income-list.php:59 admin/prospect/index.php:95
+#: admin/store/sell_product.php:101 admin/workout/add_workout.php:48
+#: gmgt_function.php:1871 gmgt_function.php:2392 gmgt_function.php:2922
+#: gmgt_function.php:3431 gmgt_function.php:4254 template/alumni.php:216
+#: template/attendence.php:114 template/attendence.php:184
+#: template/member.php:197 template/message/inbox.php:37
+#: template/payment.php:342 template/payment.php:355 template/payment.php:724
+#: template/payment.php:903 template/payment.php:913 template/payment.php:1031
+#: template/prospect.php:216 template/store.php:580 template/workouts.php:448
+msgid "Date"
+msgstr ""
+
+#: admin/alumni/index.php:96 admin/class-schedule/index.php:220
+#: admin/class-schedule/index.php:230 admin/member/index.php:95
+#: admin/prospect/index.php:96 class/gym-management.php:119
+#: class/gym-management.php:125 class/gym-management.php:131
+#: class/gym-management.php:137 class/gym-management.php:143
+#: class/gym-management.php:149 class/gym-management.php:155
+#: template/alumni.php:217 template/class-schedule.php:294
+#: template/class-schedule.php:304 template/class-schedule.php:348
+#: template/class-schedule.php:360 template/member.php:198
+#: template/prospect.php:217
+msgid "Day"
+msgstr ""
+
+#: admin/alumni/index.php:121 admin/attendence/index.php:216
+#: admin/attendence/index.php:232 admin/attendence/index.php:313
+#: admin/attendence/staff-attendence.php:83
+#: admin/attendence/staff-attendence.php:98
+#: admin/attendence/staff-attendence.php:112
+#: admin/attendence/staff-attendence.php:196 admin/dasboard.php:383
+#: admin/dasboard.php:451 admin/member/index.php:118
+#: admin/prospect/index.php:121 admin/report/attendance_report.php:13
+#: template/alumni.php:242 template/attendence.php:194
+#: template/attendence.php:209 template/attendence.php:279
+#: template/member.php:223 template/prospect.php:242
+msgid "Absent"
+msgstr ""
+
+#: admin/alumni/index.php:233 admin/member/index.php:241
+#: admin/prospect/index.php:233
+msgid "Member successfully Approved"
+msgstr ""
+
+#: admin/alumni/index.php:245 admin/member/index.php:253
+#: admin/prospect/index.php:245 template/member.php:247
+msgid "Member List"
+msgstr ""
+
+#: admin/alumni/index.php:251 admin/member/index.php:265
+#: admin/prospect/index.php:251 template/member.php:255 template/member.php:266
+msgid "View Member"
+msgstr ""
+
+#: admin/alumni/index.php:288 admin/alumni/index.php:302
+#: admin/attendence/index.php:263 admin/member/index.php:345
+#: admin/member/index.php:360 admin/membership_payment/index.php:160
+#: admin/membership_payment/index.php:174 admin/nutrition/index.php:132
+#: admin/nutrition/index.php:140 admin/payment/income-list.php:40
+#: admin/payment/income-list.php:53 admin/payment/index.php:220
+#: admin/payment/index.php:229 admin/prospect/index.php:289
+#: admin/prospect/index.php:304 admin/store/index.php:164
+#: admin/store/index.php:177 admin/workout-type/index.php:136
+#: admin/workout-type/index.php:146 admin/workout/index.php:226
+#: admin/workout/index.php:238 admin/workout/measurement_list.php:23
+#: admin/workout/measurement_list.php:33 template/alumni.php:290
+#: template/alumni.php:304 template/assign-workout.php:223
+#: template/assign-workout.php:231 template/attendence.php:240
+#: template/class-schedule.php:291 template/class-schedule.php:301
+#: template/member.php:397 template/member.php:411
+#: template/membership_payment.php:221 template/membership_payment.php:235
+#: template/nutrition.php:271 template/nutrition.php:279
+#: template/payment.php:336 template/payment.php:349 template/prospect.php:290
+#: template/prospect.php:304 template/store.php:249 template/store.php:263
+#: template/workouts.php:267 template/workouts.php:280
+msgid "Member Name"
+msgstr ""
+
+#: admin/alumni/index.php:289 admin/alumni/index.php:303
+#: admin/member/add_member.php:289 admin/member/index.php:346
+#: admin/member/index.php:361 admin/prospect/index.php:290
+#: admin/prospect/index.php:305 settings.php:1697 template/alumni.php:291
+#: template/alumni.php:305 template/member.php:398 template/member.php:412
+#: template/member.php:588 template/prospect.php:291 template/prospect.php:305
+msgid "Member Id"
+msgstr ""
+
+#: admin/alumni/index.php:290 admin/alumni/index.php:304
+#: admin/member/index.php:348 admin/member/index.php:363
+#: admin/prospect/index.php:292 admin/prospect/index.php:307
+#: admin/workout/index.php:228 admin/workout/index.php:240
+#: template/alumni.php:293 template/alumni.php:307 template/member.php:400
+#: template/member.php:414 template/prospect.php:293 template/prospect.php:307
+#: template/workouts.php:269 template/workouts.php:282
+msgid "Joining Date"
+msgstr ""
+
+#: admin/alumni/index.php:291 admin/alumni/index.php:305
+#: admin/member/index.php:349 admin/member/index.php:364
+#: admin/member/view_member.php:169 admin/prospect/index.php:293
+#: admin/prospect/index.php:308 admin/workout/index.php:229
+#: admin/workout/index.php:241 template/alumni.php:294 template/alumni.php:308
+#: template/member.php:401 template/member.php:415 template/prospect.php:294
+#: template/prospect.php:308 template/view_member.php:175
+#: template/workouts.php:270 template/workouts.php:283
+msgid "Expire Date"
+msgstr ""
+
+#: admin/alumni/index.php:292 admin/alumni/index.php:306
+#: admin/alumni/view_member.php:91 admin/attendence/index.php:204
+#: admin/dasboard.php:383 admin/dasboard.php:397
+#: admin/member/add_member.php:716 admin/member/index.php:350
+#: admin/member/index.php:365 admin/member/view_member.php:88
+#: admin/message/sendbox.php:33 admin/notice/add_notice.php:94
+#: admin/notice/index.php:130 admin/notice/index.php:141
+#: admin/prospect/index.php:294 admin/prospect/index.php:309
+#: admin/prospect/view_member.php:91 admin/report/attendance_report.php:13
+#: admin/report/attendance_report.php:27 settings.php:1149 settings.php:2078
+#: settings.php:2094 template/attendence.php:183 template/member.php:634
+#: template/message/sendbox.php:36 template/notice.php:128
+#: template/notice.php:142 template/notice.php:310 template/view_member.php:95
+msgid "Class"
+msgstr ""
+
+#: admin/alumni/index.php:293 admin/alumni/index.php:307
+#: admin/member/add_member.php:750 admin/member/index.php:351
+#: admin/member/index.php:366 admin/prospect/index.php:295
+#: admin/prospect/index.php:310 admin/report/index.php:26
+#: template/alumni.php:295 template/alumni.php:309 template/member.php:402
+#: template/member.php:416 template/member.php:959 template/prospect.php:295
+#: template/prospect.php:309
+msgid "Membership Status"
+msgstr ""
+
+#: admin/alumni/index.php:294 admin/alumni/index.php:308
+#: admin/member/index.php:352 admin/member/index.php:367
+#: admin/prospect/index.php:296 admin/prospect/index.php:311
+msgid "Member Email"
+msgstr ""
+
+#: admin/alumni/index.php:352 admin/alumni/index.php:353
+#: admin/prospect/index.php:356
+msgid " View Attendance"
+msgstr ""
+
+#: admin/alumni/index.php:355 admin/alumni/index.php:356
+#: admin/member/index.php:411 admin/member/index.php:412
+#: admin/prospect/index.php:358 admin/prospect/index.php:359
+msgid "Approve"
+msgstr ""
+
+#: admin/alumni/view_member.php:48 admin/member/view_member.php:43
+#: admin/prospect/view_member.php:48 template/account.php:163
+#: template/view_member.php:52
+msgid "Name"
+msgstr ""
+
+#: admin/alumni/view_member.php:75 admin/member/view_member.php:72
+#: admin/prospect/view_member.php:75 template/view_member.php:79
+msgid "Date Of Birth"
+msgstr ""
+
+#: admin/alumni/view_member.php:113 admin/member/view_member.php:130
+#: admin/prospect/view_member.php:113 template/view_member.php:135
+msgid "More Info"
+msgstr ""
+
+#: admin/alumni/view_member.php:125 admin/member/add_member.php:585
+#: admin/member/view_member.php:143 admin/prospect/view_member.php:125
+#: settings.php:1935 template/view_member.php:148
+msgid "Interest Area"
+msgstr ""
+
+#: admin/alumni/view_member.php:133 admin/prospect/view_member.php:133
+msgid "Member Ship"
+msgstr ""
+
+#: admin/alumni/view_member.php:141 admin/attendence/index.php:259
+#: admin/attendence/index.php:268 admin/attendence/index.php:274
+#: admin/attendence/staff-attendence.php:136
+#: admin/attendence/staff-attendence.php:145
+#: admin/attendence/staff-attendence.php:152 admin/member/view_member.php:161
+#: admin/payment/add_expense.php:50 admin/payment/add_income.php:82
+#: admin/payment/add_payment.php:94 admin/prospect/view_member.php:141
+#: gmgt_function.php:1872 gmgt_function.php:2393 gmgt_function.php:2923
+#: gmgt_function.php:3432 gmgt_function.php:4167 template/attendence.php:234
+#: template/attendence.php:245 template/attendence.php:252
+#: template/payment.php:710 template/payment.php:1018
+#: template/view_member.php:166
+msgid "Status"
+msgstr ""
+
+#: admin/alumni/view_member.php:149 admin/member/add_member.php:362
+#: admin/member/view_member.php:177 admin/prospect/view_member.php:149
+#: settings.php:1769 template/member.php:668 template/view_member.php:183
+msgid "Address"
+msgstr ""
+
+#: admin/alumni/view_member.php:173 admin/general-settings.php:231
+#: admin/member/add_member.php:420 admin/member/view_member.php:204
+#: admin/prospect/view_member.php:173 gmgt_function.php:1678 settings.php:1828
+#: template/member.php:712 template/view_member.php:210
+msgid "Weight"
+msgstr ""
+
+#: admin/alumni/view_member.php:175 admin/member/view_member.php:206
+#: admin/prospect/view_member.php:175 template/view_member.php:212
+msgid "Add Weight"
+msgstr ""
+
+#: admin/alumni/view_member.php:188 admin/alumni/view_member.php:218
+#: admin/alumni/view_member.php:245 admin/alumni/view_member.php:273
+#: admin/alumni/view_member.php:300 admin/alumni/view_member.php:327
+#: admin/alumni/view_member.php:354 admin/dasboard.php:362
+#: admin/dasboard.php:423 admin/dasboard.php:491
+#: admin/member/view_member.php:218 admin/member/view_member.php:245
+#: admin/member/view_member.php:270 admin/member/view_member.php:297
+#: admin/member/view_member.php:324 admin/member/view_member.php:351
+#: admin/member/view_member.php:378 admin/prospect/view_member.php:188
+#: admin/prospect/view_member.php:218 admin/prospect/view_member.php:245
+#: admin/prospect/view_member.php:273 admin/prospect/view_member.php:300
+#: admin/prospect/view_member.php:327 admin/prospect/view_member.php:354
+#: fronted_template.php:499 fronted_template.php:527 fronted_template.php:557
+#: fronted_template.php:585 fronted_template.php:614 fronted_template.php:643
+#: fronted_template.php:672 template/view_member.php:224
+#: template/view_member.php:254 template/view_member.php:281
+#: template/view_member.php:309 template/view_member.php:336
+#: template/view_member.php:363 template/view_member.php:390
+msgid "There is not enough data to generate report"
+msgstr ""
+
+#: admin/alumni/view_member.php:202 admin/member/view_member.php:232
+#: admin/prospect/view_member.php:202 class/gym-management.php:142
+#: template/view_member.php:238
+msgid "Waist Report"
+msgstr ""
+
+#: admin/alumni/view_member.php:204 admin/member/view_member.php:234
+#: admin/prospect/view_member.php:204 template/view_member.php:240
+msgid "Add Waist"
+msgstr ""
+
+#: admin/alumni/view_member.php:232 admin/member/view_member.php:258
+#: admin/prospect/view_member.php:232 class/gym-management.php:130
+#: template/view_member.php:268
+msgid "Height Report"
+msgstr ""
+
+#: admin/alumni/view_member.php:234 admin/member/view_member.php:260
+#: admin/prospect/view_member.php:234 template/view_member.php:270
+msgid "Add Height"
+msgstr ""
+
+#: admin/alumni/view_member.php:260 admin/member/view_member.php:284
+#: admin/prospect/view_member.php:260 class/gym-management.php:136
+#: template/view_member.php:296
+msgid "Chest Report"
+msgstr ""
+
+#: admin/alumni/view_member.php:262 admin/member/view_member.php:286
+#: admin/prospect/view_member.php:262 template/view_member.php:298
+msgid "Add Chest"
+msgstr ""
+
+#: admin/alumni/view_member.php:287 admin/member/view_member.php:311
+#: admin/prospect/view_member.php:287 class/gym-management.php:124
+#: template/view_member.php:323
+msgid "Thigh Report"
+msgstr ""
+
+#: admin/alumni/view_member.php:289 admin/member/view_member.php:313
+#: admin/prospect/view_member.php:289 template/view_member.php:325
+msgid "Add Thigh"
+msgstr ""
+
+#: admin/alumni/view_member.php:314 admin/member/view_member.php:338
+#: admin/prospect/view_member.php:314 class/gym-management.php:148
+#: template/view_member.php:350
+msgid "Arms Report"
+msgstr ""
+
+#: admin/alumni/view_member.php:316 admin/member/view_member.php:340
+#: admin/prospect/view_member.php:316 template/view_member.php:352
+msgid "Add Arms"
+msgstr ""
+
+#: admin/alumni/view_member.php:341 admin/member/view_member.php:365
+#: admin/prospect/view_member.php:341 class/gym-management.php:154
+#: template/view_member.php:377
+msgid "Fat Report"
+msgstr ""
+
+#: admin/alumni/view_member.php:343 admin/member/view_member.php:367
+#: admin/prospect/view_member.php:343 template/view_member.php:379
+msgid "Add Fat"
+msgstr ""
+
+#: admin/alumni/view_member.php:396 admin/alumni/view_member.php:406
+#: admin/member/view_member.php:514 admin/member/view_member.php:525
+#: admin/membership_payment/index.php:159
+#: admin/membership_payment/index.php:173 admin/payment/add_payment.php:51
+#: admin/payment/index.php:219 admin/payment/index.php:228
+#: admin/prospect/view_member.php:396 admin/prospect/view_member.php:406
+#: template/membership_payment.php:220 template/membership_payment.php:234
+#: template/subscription_history.php:57 template/subscription_history.php:67
+#: template/view_member.php:527 template/view_member.php:538
+msgid "Title"
+msgstr ""
+
+#: admin/alumni/view_member.php:397 admin/alumni/view_member.php:407
+#: admin/member/view_member.php:515 admin/member/view_member.php:526
+#: admin/membership/add_membership.php:158
+#: admin/membership/add_membership.php:164
+#: admin/membership/add_membership.php:197
+#: admin/membership_payment/index.php:161
+#: admin/membership_payment/index.php:175 admin/payment/add_payment.php:68
+#: admin/payment/expense-list.php:26 admin/payment/expense-list.php:34
+#: admin/payment/income-list.php:43 admin/payment/income-list.php:56
+#: admin/prospect/view_member.php:397 admin/prospect/view_member.php:407
+#: gmgt_function.php:1949 gmgt_function.php:1973 gmgt_function.php:2470
+#: gmgt_function.php:2494 gmgt_function.php:3016 gmgt_function.php:3502
+#: gmgt_function.php:3525 gmgt_function.php:3714 gmgt_function.php:4255
+#: template/membership.php:412 template/membership_payment.php:222
+#: template/membership_payment.php:236 template/payment.php:339
+#: template/payment.php:352 template/payment.php:902 template/payment.php:912
+#: template/subscription_history.php:58 template/subscription_history.php:68
+#: template/view_member.php:528 template/view_member.php:539
+msgid "Amount"
+msgstr ""
+
+#: admin/alumni/view_member.php:398 admin/alumni/view_member.php:408
+#: admin/member/view_member.php:517 admin/member/view_member.php:528
+#: admin/membership_payment/index.php:163
+#: admin/membership_payment/index.php:177 admin/payment/income-list.php:45
+#: admin/payment/income-list.php:58 admin/prospect/view_member.php:398
+#: admin/prospect/view_member.php:408 admin/store/index.php:168
+#: admin/store/index.php:181 template/membership_payment.php:224
+#: template/membership_payment.php:238 template/payment.php:341
+#: template/payment.php:354 template/store.php:253 template/store.php:267
+#: template/subscription_history.php:59 template/subscription_history.php:69
+#: template/view_member.php:530 template/view_member.php:541
+msgid "Due Amount"
+msgstr ""
+
+#: admin/alumni/view_member.php:399 admin/alumni/view_member.php:409
+#: admin/member/view_member.php:518 admin/member/view_member.php:529
+#: admin/membership_payment/index.php:164
+#: admin/membership_payment/index.php:178 admin/prospect/view_member.php:399
+#: admin/prospect/view_member.php:409 template/membership_payment.php:225
+#: template/membership_payment.php:239 template/subscription_history.php:60
+#: template/subscription_history.php:70 template/view_member.php:531
+#: template/view_member.php:542
+msgid "Membership <BR>Start Date"
+msgstr ""
+
+#: admin/alumni/view_member.php:400 admin/alumni/view_member.php:410
+#: admin/member/view_member.php:519 admin/member/view_member.php:530
+#: admin/membership_payment/index.php:165
+#: admin/membership_payment/index.php:179 admin/prospect/view_member.php:400
+#: admin/prospect/view_member.php:410 template/membership_payment.php:226
+#: template/membership_payment.php:240 template/subscription_history.php:61
+#: template/subscription_history.php:71 template/view_member.php:532
+#: template/view_member.php:543
+msgid "Membership <BR>End Date"
+msgstr ""
+
+#: admin/alumni/view_member.php:401 admin/alumni/view_member.php:411
+#: admin/member/view_member.php:520 admin/member/view_member.php:531
+#: admin/membership_payment/index.php:166
+#: admin/membership_payment/index.php:180 admin/payment/income-list.php:47
+#: admin/payment/income-list.php:60 admin/prospect/view_member.php:401
+#: admin/prospect/view_member.php:411 admin/store/index.php:169
+#: admin/store/index.php:182 template/membership_payment.php:227
+#: template/membership_payment.php:241 template/payment.php:343
+#: template/payment.php:356 template/store.php:254 template/store.php:268
+#: template/subscription_history.php:62 template/subscription_history.php:72
+#: template/view_member.php:533 template/view_member.php:544
+msgid "Payment Status"
+msgstr ""
+
+#: admin/attendence/index.php:38 admin/attendence/index.php:52
+#: template/attendence.php:25
+msgid "Attendance successfully saved!"
+msgstr ""
+
+#: admin/attendence/index.php:104 template/attendence.php:95
+msgid "Member Attendance"
+msgstr ""
+
+#: admin/attendence/index.php:106
+msgid "Staff  Attendance"
+msgstr ""
+
+#: admin/attendence/index.php:137 admin/message/composemail.php:42
+#: admin/notice/add_notice.php:108 settings.php:2082 settings.php:2098
+#: template/attendence.php:120 template/member.php:638
+#: template/message/composemail.php:233 template/notice.php:314
+msgid "Select Class"
+msgstr ""
+
+#: admin/attendence/index.php:140
+msgid "Select class Name"
+msgstr ""
+
+#: admin/attendence/index.php:152 admin/attendence/staff-attendence.php:42
+#: template/attendence.php:139
+msgid "Take/View  Attendance"
+msgstr ""
+
+#: admin/attendence/index.php:172
+msgid "Please Select Class"
+msgstr ""
+
+#: admin/attendence/index.php:173 template/attendence.php:155
+msgid "Please select any one class."
+msgstr ""
+
+#: admin/attendence/index.php:213 admin/attendence/index.php:229
+#: admin/attendence/index.php:313 admin/attendence/staff-attendence.php:81
+#: admin/attendence/staff-attendence.php:95
+#: admin/attendence/staff-attendence.php:109
+#: admin/attendence/staff-attendence.php:196 admin/dasboard.php:383
+#: admin/dasboard.php:451 admin/report/attendance_report.php:13
+#: template/attendence.php:191 template/attendence.php:206
+#: template/attendence.php:279
+msgid "Present"
+msgstr ""
+
+#: admin/attendence/index.php:356 admin/attendence/index.php:362
+#: admin/attendence/staff-attendence.php:217
+#: admin/attendence/staff-attendence.php:222
+msgid "Save Attendance"
+msgstr ""
+
+#: admin/attendence/staff-attendence.php:57 admin/dasboard.php:485
+msgid "Staff Attendance"
+msgstr ""
+
+#: admin/attendence/staff-attendence.php:141 admin/staff-members/index.php:172
+#: admin/staff-members/index.php:182 template/accountant.php:41
+#: template/accountant.php:49 template/staff_member.php:43
+#: template/staff_member.php:52
+msgid "Staff Member Name"
+msgstr ""
+
+#: admin/class-schedule/add_class.php:107 admin/class-schedule/index.php:216
+#: admin/class-schedule/index.php:226 admin/member/add_member.php:1295
+#: template/class-schedule.php:292 template/class-schedule.php:302
+#: template/class-schedule.php:344 template/class-schedule.php:356
+#: template/class-schedule.php:448
+msgid "Class Name"
+msgstr ""
+
+#: admin/class-schedule/add_class.php:113 admin/member/add_member.php:554
+#: admin/member/add_member.php:560 admin/member/add_member.php:1301
+#: admin/reservation/add_reservation.php:175 settings.php:1914
+#: settings.php:1921 template/class-schedule.php:454 template/member.php:805
+msgid "Select Staff Member"
+msgstr ""
+
+#: admin/class-schedule/add_class.php:148 admin/member/add_member.php:1328
+#: template/class-schedule.php:476
+msgid "Select Assistant Staff Member"
+msgstr ""
+
+#: admin/class-schedule/add_class.php:153 admin/member/add_member.php:1333
+#: template/class-schedule.php:481
+msgid "Select Assistant Staff Member "
+msgstr ""
+
+#: admin/class-schedule/add_class.php:183 admin/member/add_member.php:1352
+#: template/class-schedule.php:496
+msgid "Select Day"
+msgstr ""
+
+#: admin/class-schedule/add_class.php:186 admin/member/add_member.php:1355
+#: template/class-schedule.php:499
+msgid "Select Day "
+msgstr ""
+
+#: admin/class-schedule/add_class.php:237 admin/member/add_member.php:1394
+#: admin/reservation/add_reservation.php:96
+#: admin/reservation/add_reservation.php:106 template/class-schedule.php:547
+#: template/reservation.php:416 template/reservation.php:426
+msgid "Start Time"
+msgstr ""
+
+#: admin/class-schedule/add_class.php:247
+#: admin/class-schedule/add_class.php:286 admin/member/add_member.php:1398
+#: admin/member/add_member.php:1431 template/class-schedule.php:556
+#: template/class-schedule.php:586
+msgid "Select Time"
+msgstr ""
+
+#: admin/class-schedule/add_class.php:271
+#: admin/class-schedule/add_class.php:311 admin/member/add_member.php:1422
+#: admin/member/add_member.php:1456 admin/reservation/add_reservation.php:130
+#: admin/reservation/add_reservation.php:168 template/class-schedule.php:571
+#: template/class-schedule.php:602 template/reservation.php:450
+#: template/reservation.php:488
+msgid "am"
+msgstr ""
+
+#: admin/class-schedule/add_class.php:272
+#: admin/class-schedule/add_class.php:312 admin/member/add_member.php:1423
+#: admin/member/add_member.php:1457 admin/reservation/add_reservation.php:131
+#: admin/reservation/add_reservation.php:169 template/class-schedule.php:572
+#: template/class-schedule.php:603 template/reservation.php:451
+#: template/reservation.php:489
+msgid "pm"
+msgstr ""
+
+#: admin/class-schedule/add_class.php:277 admin/member/add_member.php:1428
+#: admin/reservation/add_reservation.php:136
+#: admin/reservation/add_reservation.php:145 template/class-schedule.php:577
+#: template/reservation.php:456 template/reservation.php:465
+msgid "End Time"
+msgstr ""
+
+#: admin/class-schedule/index.php:57 admin/class-schedule/index.php:103
+#: admin/reservation/index.php:40 admin/reservation/index.php:104
+#: template/class-schedule.php:76 template/class-schedule.php:121
+#: template/reservation.php:68 template/reservation.php:122
+msgid "End Time should be greater than Start Time"
+msgstr ""
+
+#: admin/class-schedule/index.php:168 admin/news-letter/sync.php:7
+#: template/news_letter.php:126
+msgid "Class List"
+msgstr ""
+
+#: admin/class-schedule/index.php:173 template/class-schedule.php:253
+msgid "Edit Class"
+msgstr ""
+
+#: admin/class-schedule/index.php:179 admin/member/add_member.php:743
+#: admin/member/add_member.php:744 admin/member/add_member.php:1288
+#: template/class-schedule.php:261
+msgid "Add Class"
+msgstr ""
+
+#: admin/class-schedule/index.php:183 template/class-schedule.php:268
+msgid "Schedule List"
+msgstr ""
+
+#: admin/class-schedule/index.php:217 admin/class-schedule/index.php:227
+#: template/class-schedule.php:345 template/class-schedule.php:357
+msgid "Staff Name"
+msgstr ""
+
+#: admin/class-schedule/index.php:218 admin/class-schedule/index.php:228
+#: admin/reservation/index.php:228 admin/reservation/index.php:239
+#: template/class-schedule.php:295 template/class-schedule.php:305
+#: template/class-schedule.php:346 template/class-schedule.php:358
+#: template/reservation.php:261 template/reservation.php:272
+msgid "Starting Time"
+msgstr ""
+
+#: admin/class-schedule/index.php:219 admin/class-schedule/index.php:229
+#: admin/reservation/index.php:229 admin/reservation/index.php:240
+#: template/class-schedule.php:296 template/class-schedule.php:306
+#: template/class-schedule.php:347 template/class-schedule.php:359
+#: template/reservation.php:262 template/reservation.php:273
+msgid "Ending Time"
+msgstr ""
+
+#: admin/dasboard.php:114 fronted_template.php:132
+msgid "Title Name"
+msgstr ""
+
+#: admin/dasboard.php:224 admin/group/index.php:83 fronted_template.php:423
+#: template/group.php:152
+msgid "Group List"
+msgstr ""
+
+#: admin/dasboard.php:261 admin/report/feepayment_report.php:2
+#: admin/report/income_report.php:2
+msgid "January"
+msgstr ""
+
+#: admin/dasboard.php:261 admin/report/feepayment_report.php:2
+#: admin/report/income_report.php:2
+msgid "February"
+msgstr ""
+
+#: admin/dasboard.php:261 admin/report/feepayment_report.php:2
+#: admin/report/income_report.php:2
+msgid "March"
+msgstr ""
+
+#: admin/dasboard.php:261 admin/report/feepayment_report.php:2
+#: admin/report/income_report.php:2
+msgid "April"
+msgstr ""
+
+#: admin/dasboard.php:262 admin/report/feepayment_report.php:3
+#: admin/report/income_report.php:3
+msgid "May"
+msgstr ""
+
+#: admin/dasboard.php:262 admin/report/feepayment_report.php:3
+#: admin/report/income_report.php:3
+msgid "June"
+msgstr ""
+
+#: admin/dasboard.php:262 admin/report/feepayment_report.php:3
+#: admin/report/income_report.php:3
+msgid "July"
+msgstr ""
+
+#: admin/dasboard.php:262 admin/report/feepayment_report.php:3
+#: admin/report/income_report.php:3
+msgid "August"
+msgstr ""
+
+#: admin/dasboard.php:263 admin/report/feepayment_report.php:4
+#: admin/report/income_report.php:4
+msgid "September"
+msgstr ""
+
+#: admin/dasboard.php:263 admin/report/feepayment_report.php:4
+#: admin/report/income_report.php:4
+msgid "November"
+msgstr ""
+
+#: admin/dasboard.php:263 admin/report/feepayment_report.php:4
+#: admin/report/income_report.php:4
+msgid "December"
+msgstr ""
+
+#: admin/dasboard.php:314 admin/dasboard.php:334
+#: admin/report/feepayment_report.php:13 admin/report/feepayment_report.php:25
+#: admin/report/income_report.php:13 admin/report/income_report.php:25
+#: admin/report/sell_product_payment_report.php:25
+msgid "Month"
+msgstr ""
+
+#: admin/dasboard.php:328
+msgid "Payment by month"
+msgstr ""
+
+#: admin/dasboard.php:391 admin/dasboard.php:417
+#: admin/report/attendance_report.php:21
+msgid "Member Attendance Report"
+msgstr ""
+
+#: admin/dasboard.php:403 admin/report/attendance_report.php:35
+#: admin/report/membership_report.php:39
+msgid "No of Member"
+msgstr ""
+
+#: admin/dasboard.php:460
+msgid "Staff Attendance Report"
+msgstr ""
+
+#: admin/dasboard.php:471
+msgid "Number of Staff Members"
+msgstr ""
+
+#: admin/email-template/index.php:88 admin/email-template/index.php:102
+msgid "Member Registration Template"
+msgstr ""
+
+#: admin/email-template/index.php:96 admin/email-template/index.php:138
+#: admin/email-template/index.php:177 admin/email-template/index.php:219
+#: admin/email-template/index.php:264 admin/email-template/index.php:305
+#: admin/email-template/index.php:348 admin/email-template/index.php:389
+#: admin/email-template/index.php:428 admin/email-template/index.php:468
+#: admin/email-template/index.php:514 admin/email-template/index.php:557
+#: admin/email-template/index.php:598 admin/email-template/index.php:636
+msgid "Email Subject"
+msgstr ""
+
+#: admin/email-template/index.php:109 admin/email-template/index.php:151
+#: admin/email-template/index.php:190 admin/email-template/index.php:232
+#: admin/email-template/index.php:277 admin/email-template/index.php:318
+#: admin/email-template/index.php:361 admin/email-template/index.php:402
+#: admin/email-template/index.php:441 admin/email-template/index.php:481
+#: admin/email-template/index.php:527 admin/email-template/index.php:570
+#: admin/email-template/index.php:611 admin/email-template/index.php:649
+msgid "You can use following variables in the email template:"
+msgstr ""
+
+#: admin/email-template/index.php:110 admin/email-template/index.php:152
+msgid "The member name"
+msgstr ""
+
+#: admin/email-template/index.php:111
+msgid "The member id"
+msgstr ""
+
+#: admin/email-template/index.php:112
+msgid "Membership name"
+msgstr ""
+
+#: admin/email-template/index.php:113
+msgid "Membership start date"
+msgstr ""
+
+#: admin/email-template/index.php:114
+msgid "Membership end date"
+msgstr ""
+
+#: admin/email-template/index.php:115 admin/email-template/index.php:153
+#: admin/email-template/index.php:192 admin/email-template/index.php:241
+#: admin/email-template/index.php:280 admin/email-template/index.php:322
+#: admin/email-template/index.php:364 admin/email-template/index.php:404
+#: admin/email-template/index.php:443 admin/email-template/index.php:488
+#: admin/email-template/index.php:531 admin/email-template/index.php:574
+#: admin/email-template/index.php:613 admin/email-template/index.php:651
+#: admin/general-settings.php:118
+msgid "Gym Name"
+msgstr ""
+
+#: admin/email-template/index.php:130
+msgid "Member Approved Template "
+msgstr ""
+
+#: admin/email-template/index.php:144
+msgid "Member Approved Template"
+msgstr ""
+
+#: admin/email-template/index.php:154 admin/email-template/index.php:196
+msgid "Login Link"
+msgstr ""
+
+#: admin/email-template/index.php:169
+msgid "Add Other User in System Template "
+msgstr ""
+
+#: admin/email-template/index.php:183
+msgid "Add Other User in System Template"
+msgstr ""
+
+#: admin/email-template/index.php:191 admin/email-template/index.php:233
+#: admin/email-template/index.php:278 admin/email-template/index.php:362
+#: admin/email-template/index.php:403 admin/email-template/index.php:442
+#: admin/email-template/index.php:612
+msgid "The User name"
+msgstr ""
+
+#: admin/email-template/index.php:193 admin/email-template/index.php:444
+#: gmgt_function.php:1420 gmgt_function.php:1424
+msgid "Role Name"
+msgstr ""
+
+#: admin/email-template/index.php:194
+msgid "Username Name"
+msgstr ""
+
+#: admin/email-template/index.php:211 admin/email-template/index.php:225
+msgid "Add Notice Template"
+msgstr ""
+
+#: admin/email-template/index.php:234
+msgid "The Member name"
+msgstr ""
+
+#: admin/email-template/index.php:235 admin/notice/add_notice.php:74
+#: admin/notice/index.php:127 admin/notice/index.php:138 gmgt_function.php:1057
+#: template/notice.php:125 template/notice.php:139 template/notice.php:291
+msgid "Notice Title"
+msgstr ""
+
+#: admin/email-template/index.php:236
+msgid "Notice FOR "
+msgstr ""
+
+#: admin/email-template/index.php:237
+msgid "Notice Start Date "
+msgstr ""
+
+#: admin/email-template/index.php:238
+msgid "Notice End Date "
+msgstr ""
+
+#: admin/email-template/index.php:239
+msgid "Notice Description "
+msgstr ""
+
+#: admin/email-template/index.php:240
+msgid "Notice Link "
+msgstr ""
+
+#: admin/email-template/index.php:256 admin/email-template/index.php:270
+msgid "Member Added In Group Template"
+msgstr ""
+
+#: admin/email-template/index.php:279
+msgid "The Group name"
+msgstr ""
+
+#: admin/email-template/index.php:297 admin/email-template/index.php:311
+msgid "Assign Workouts Template"
+msgstr ""
+
+#: admin/email-template/index.php:319 admin/email-template/index.php:528
+msgid "The Member Name"
+msgstr ""
+
+#: admin/email-template/index.php:320
+msgid "Workouts Start Date "
+msgstr ""
+
+#: admin/email-template/index.php:321
+msgid "Workouts End Date "
+msgstr ""
+
+#: admin/email-template/index.php:323 admin/email-template/index.php:489
+#: admin/email-template/index.php:532
+msgid "Page Link"
+msgstr ""
+
+#: admin/email-template/index.php:340 admin/store/sell_product.php:260
+#: class/store.php:208 template/store.php:722
+msgid "Sell Product"
+msgstr ""
+
+#: admin/email-template/index.php:354
+msgid "Sell Product Template"
+msgstr ""
+
+#: admin/email-template/index.php:363
+msgid "The Product name"
+msgstr ""
+
+#: admin/email-template/index.php:381
+msgid "Generate Invoice"
+msgstr ""
+
+#: admin/email-template/index.php:395 admin/email-template/index.php:520
+msgid "Generate Invoice Template"
+msgstr ""
+
+#: admin/email-template/index.php:405
+msgid "Payment Link"
+msgstr ""
+
+#: admin/email-template/index.php:420
+msgid "Add Income "
+msgstr ""
+
+#: admin/email-template/index.php:434 admin/email-template/index.php:604
+#: admin/email-template/index.php:642
+msgid "Add Income Template"
+msgstr ""
+
+#: admin/email-template/index.php:460 admin/email-template/index.php:474
+msgid "Add Reservation Template"
+msgstr ""
+
+#: admin/email-template/index.php:482
+msgid "Staff member name"
+msgstr ""
+
+#: admin/email-template/index.php:483 admin/reservation/add_reservation.php:51
+#: admin/reservation/index.php:225 admin/reservation/index.php:236
+#: template/reservation.php:258 template/reservation.php:269
+#: template/reservation.php:370
+msgid "Event Name"
+msgstr ""
+
+#: admin/email-template/index.php:484 admin/reservation/add_reservation.php:57
+#: admin/reservation/index.php:226 admin/reservation/index.php:237
+#: template/reservation.php:259 template/reservation.php:270
+#: template/reservation.php:376
+msgid "Event Date"
+msgstr ""
+
+#: admin/email-template/index.php:485 admin/reservation/add_reservation.php:64
+#: template/reservation.php:384
+msgid "Event Place"
+msgstr ""
+
+#: admin/email-template/index.php:486
+msgid "Event Start Time"
+msgstr ""
+
+#: admin/email-template/index.php:487
+msgid "Event End  Time"
+msgstr ""
+
+#: admin/email-template/index.php:506
+msgid "Assign Nutrition Schedule Template"
+msgstr ""
+
+#: admin/email-template/index.php:529
+msgid "Nutrition Start Date "
+msgstr ""
+
+#: admin/email-template/index.php:530
+msgid "Nutrition End Date "
+msgstr ""
+
+#: admin/email-template/index.php:549 admin/email-template/index.php:563
+msgid "Submit Workouts Template"
+msgstr ""
+
+#: admin/email-template/index.php:571
+msgid " Staff Member Name"
+msgstr ""
+
+#: admin/email-template/index.php:572
+msgid "Workout Day Name "
+msgstr ""
+
+#: admin/email-template/index.php:573
+msgid "Workout Day"
+msgstr ""
+
+#: admin/email-template/index.php:590
+msgid "Payment Received against Invoice"
+msgstr ""
+
+#: admin/email-template/index.php:628
+msgid "Message Received"
+msgstr ""
+
+#: admin/email-template/index.php:650
+msgid "The Receiver name"
+msgstr ""
+
+#: admin/email-template/index.php:652
+msgid "Sender Name"
+msgstr ""
+
+#: admin/email-template/index.php:653
+msgid "Message Content"
+msgstr ""
+
+#: admin/general-settings.php:124
+msgid "Starting Year"
+msgstr ""
+
+#: admin/general-settings.php:130
+msgid "Gym Address"
+msgstr ""
+
+#: admin/general-settings.php:136
+msgid "Official Phone Number"
+msgstr ""
+
+#: admin/general-settings.php:142
+msgid "Country"
+msgstr ""
+
+#: admin/general-settings.php:150
+msgid "Select Country"
+msgstr ""
+
+#: admin/general-settings.php:167
+msgid "Date Format"
+msgstr ""
+
+#: admin/general-settings.php:191
+msgid "Gym Logo"
+msgstr ""
+
+#: admin/general-settings.php:195
+msgid "Upload image."
+msgstr ""
+
+#: admin/general-settings.php:203
+msgid "Profile Cover Image"
+msgstr ""
+
+#: admin/general-settings.php:216
+msgid "Enable Notifications"
+msgstr ""
+
+#: admin/general-settings.php:220 admin/general-settings.php:280
+#: admin/general-settings.php:290 admin/general-settings.php:306
+#: admin/general-settings.php:386 admin/general-settings.php:426
+#: admin/general-settings.php:461 admin/general-settings.php:474
+#: admin/general-settings.php:487
+msgid "Enable"
+msgstr ""
+
+#: admin/general-settings.php:228
+msgid "Measurement Units"
+msgstr ""
+
+#: admin/general-settings.php:237 admin/member/add_member.php:430
+#: gmgt_function.php:1677 settings.php:1838 template/member.php:718
+msgid "Height"
+msgstr ""
+
+#: admin/general-settings.php:243 admin/member/add_member.php:437
+#: gmgt_function.php:1679 settings.php:1845 template/member.php:724
+msgid "Chest"
+msgstr ""
+
+#: admin/general-settings.php:249 admin/member/add_member.php:445
+#: gmgt_function.php:1680 settings.php:1853 template/member.php:730
+msgid "Waist"
+msgstr ""
+
+#: admin/general-settings.php:255 admin/member/add_member.php:453
+#: gmgt_function.php:1681 settings.php:1861 template/member.php:736
+msgid "Thigh"
+msgstr ""
+
+#: admin/general-settings.php:261 admin/member/add_member.php:461
+#: gmgt_function.php:1682 settings.php:1869 template/member.php:742
+msgid "Arms"
+msgstr ""
+
+#: admin/general-settings.php:267 admin/member/add_member.php:469
+#: gmgt_function.php:1683 settings.php:1877
+msgid "Fat"
+msgstr ""
+
+#: admin/general-settings.php:273
+msgid "Member Privacy Setting"
+msgstr ""
+
+#: admin/general-settings.php:276
+msgid "Member can view other member's details"
+msgstr ""
+
+#: admin/general-settings.php:286
+msgid "Staff Member can view own trainee member's details"
+msgstr ""
+
+#: admin/general-settings.php:297
+msgid "Paypal Setting"
+msgstr ""
+
+#: admin/general-settings.php:302
+msgid "Enable Sandbox"
+msgstr ""
+
+#: admin/general-settings.php:313
+msgid "Paypal Email Id"
+msgstr ""
+
+#: admin/general-settings.php:319 admin/general-settings.php:322
+msgid "Select Currency"
+msgstr ""
+
+#: admin/general-settings.php:324
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: admin/general-settings.php:326
+msgid "Australian Dollar"
+msgstr ""
+
+#: admin/general-settings.php:328
+msgid "Brazilian Real"
+msgstr ""
+
+#: admin/general-settings.php:330
+msgid "Canadian Dollar"
+msgstr ""
+
+#: admin/general-settings.php:332
+msgid "Czech Koruna"
+msgstr ""
+
+#: admin/general-settings.php:334
+msgid "Danish Krone"
+msgstr ""
+
+#: admin/general-settings.php:336
+msgid "Euro"
+msgstr ""
+
+#: admin/general-settings.php:338
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: admin/general-settings.php:340
+msgid "Hungarian Forint"
+msgstr ""
+
+#: admin/general-settings.php:342
+msgid "Indian Rupee"
+msgstr ""
+
+#: admin/general-settings.php:344
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: admin/general-settings.php:346
+msgid "Japanese Yen"
+msgstr ""
+
+#: admin/general-settings.php:348
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: admin/general-settings.php:350
+msgid "Mexican Peso"
+msgstr ""
+
+#: admin/general-settings.php:352
+msgid "Norwegian Krone"
+msgstr ""
+
+#: admin/general-settings.php:354
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: admin/general-settings.php:356
+msgid "Philippine Peso"
+msgstr ""
+
+#: admin/general-settings.php:358
+msgid "Polish Zloty"
+msgstr ""
+
+#: admin/general-settings.php:360
+msgid "Pound Sterling"
+msgstr ""
+
+#: admin/general-settings.php:362
+msgid "Singapore Dollar"
+msgstr ""
+
+#: admin/general-settings.php:364
+msgid "Swedish Krona"
+msgstr ""
+
+#: admin/general-settings.php:366
+msgid "Swiss Franc"
+msgstr ""
+
+#: admin/general-settings.php:368
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: admin/general-settings.php:370
+msgid "Thai Baht"
+msgstr ""
+
+#: admin/general-settings.php:372
+msgid "Turkish Lira"
+msgstr ""
+
+#: admin/general-settings.php:374
+msgid "U.S. Dollar"
+msgstr ""
+
+#: admin/general-settings.php:383
+msgid "Use Paymaster Payment Gateways"
+msgstr ""
+
+#: admin/general-settings.php:392
+msgid "Bank Details"
+msgstr ""
+
+#: admin/general-settings.php:395
+msgid "Name of the A/c holder"
+msgstr ""
+
+#: admin/general-settings.php:401
+msgid "Name of the A/c Bank"
+msgstr ""
+
+#: admin/general-settings.php:407
+msgid "Account Number"
+msgstr ""
+
+#: admin/general-settings.php:413
+msgid "IFSC Code"
+msgstr ""
+
+#: admin/general-settings.php:419
+msgid "Membership Alert Message Setting"
+msgstr ""
+
+#: admin/general-settings.php:422
+msgid "Enable Alert Mail"
+msgstr ""
+
+#: admin/general-settings.php:432
+msgid "Reminder Before Days"
+msgstr ""
+
+#: admin/general-settings.php:438
+msgid "Reminder Message"
+msgstr ""
+
+#: admin/general-settings.php:445
+msgid "ShortCodes For Notification Mail Message Content"
+msgstr ""
+
+#: admin/general-settings.php:454
+msgid "Message Setting"
+msgstr ""
+
+#: admin/general-settings.php:457
+msgid "Member can Message To other's"
+msgstr ""
+
+#: admin/general-settings.php:467
+msgid "Attendence Setting"
+msgstr ""
+
+#: admin/general-settings.php:470
+msgid "Past Attendance."
+msgstr ""
+
+#: admin/general-settings.php:480
+msgid "Datepicker Setting"
+msgstr ""
+
+#: admin/general-settings.php:483
+msgid "Previous Date"
+msgstr ""
+
+#: admin/group/add_group.php:25 admin/group/index.php:122
+#: admin/group/index.php:130 admin/member/add_member.php:1050
+#: template/group.php:184 template/group.php:192 template/group.php:298
+msgid "Group Name"
+msgstr ""
+
+#: admin/group/add_group.php:31 admin/member/add_member.php:1056
+#: template/group.php:304
+msgid "Group Image"
+msgstr ""
+
+#: admin/group/add_group.php:36 admin/member/add_member.php:1060
+msgid "Upload Group Image"
+msgstr ""
+
+#: admin/group/index.php:88 template/group.php:159
+msgid "Edit Group"
+msgstr ""
+
+#: admin/group/index.php:94 admin/member/add_member.php:353
+#: admin/member/add_member.php:354 admin/member/add_member.php:1043
+#: template/group.php:167
+msgid "Add Group"
+msgstr ""
+
+#: admin/group/index.php:123 admin/group/index.php:131 template/group.php:185
+#: template/group.php:193
+msgid "Total Group Members"
+msgstr ""
+
+#: admin/member/add_member.php:378 admin/member/add_member.php:950
+#: admin/staff-members/add_staff.php:166 settings.php:1785
+msgid "State"
+msgstr ""
+
+#: admin/member/add_member.php:385 admin/member/add_member.php:958
+#: admin/staff-members/add_staff.php:173 settings.php:1792
+msgid "Zip Code"
+msgstr ""
+
+#: admin/member/add_member.php:417 settings.php:1825 template/member.php:709
+msgid "Physical Information"
+msgstr ""
+
+#: admin/member/add_member.php:529 settings.php:1910 template/member.php:801
+msgid "More Information"
+msgstr ""
+
+#: admin/member/add_member.php:532 admin/member/index.php:300
+#: template/member.php:290
+msgid "Member type"
+msgstr ""
+
+#: admin/member/add_member.php:535 admin/member/index.php:302
+#: template/member.php:292
+msgid "Select Member Type"
+msgstr ""
+
+#: admin/member/add_member.php:588 settings.php:1939
+msgid "Select Interest"
+msgstr ""
+
+#: admin/member/add_member.php:613 settings.php:1965 template/member.php:859
+msgid " Convert into Staff Member"
+msgstr ""
+
+#: admin/member/add_member.php:620 settings.php:1973
+msgid "Referral Source"
+msgstr ""
+
+#: admin/member/add_member.php:623 settings.php:1977
+msgid "Select Referral Source"
+msgstr ""
+
+#: admin/member/add_member.php:647 settings.php:2000
+msgid "Referred By"
+msgstr ""
+
+#: admin/member/add_member.php:654 settings.php:2007
+msgid "Select Referred Member"
+msgstr ""
+
+#: admin/member/add_member.php:678 settings.php:2030 template/member.php:922
+msgid "Inquiry Date"
+msgstr ""
+
+#: admin/member/add_member.php:685 settings.php:2037
+msgid "Trial End Date"
+msgstr ""
+
+#: admin/member/add_member.php:697
+msgid "Select Membership"
+msgstr ""
+
+#: admin/member/add_member.php:754 admin/report/membership_status_report.php:9
+#: template/member.php:964
+msgid "Continue"
+msgstr ""
+
+#: admin/member/add_member.php:757 admin/report/membership_status_report.php:9
+#: template/member.php:967
+msgid "Expired"
+msgstr ""
+
+#: admin/member/add_member.php:760 admin/report/membership_status_report.php:9
+#: template/member.php:970
+msgid "Dropped"
+msgstr ""
+
+#: admin/member/add_member.php:767 template/member.php:976
+msgid "Auto Renew"
+msgstr ""
+
+#: admin/member/add_member.php:771 template/member.php:980
+msgid "Yes"
+msgstr ""
+
+#: admin/member/add_member.php:774 template/member.php:983
+msgid "No"
+msgstr ""
+
+#: admin/member/add_member.php:781
+#: admin/membership_payment/add_membership_payment.php:94 settings.php:2113
+msgid "Membership Valid From"
+msgstr ""
+
+#: admin/member/add_member.php:787
+#: admin/membership_payment/add_membership_payment.php:102 settings.php:2120
+msgid "To"
+msgstr ""
+
+#: admin/member/add_member.php:801 settings.php:2129 template/member.php:995
+msgid "First Payment Date"
+msgstr ""
+
+#: admin/member/add_member.php:809 template/member.php:1004
+msgid "Save Member"
+msgstr ""
+
+#: admin/member/add_member.php:1167 admin/membership/add_membership -
+#: Copy.php:112 admin/membership/add_membership.php:114 gmgt_function.php:4999
+msgid "No Of Member"
+msgstr ""
+
+#: admin/member/add_member.php:1199 admin/membership/add_membership -
+#: Copy.php:143
+msgid "No Of Classis"
+msgstr ""
+
+#: admin/member/add_member.php:1272 admin/membership/add_membership -
+#: Copy.php:237 admin/membership/add_membership.php:239
+#: template/membership.php:482
+msgid "Save Membership"
+msgstr ""
+
+#: admin/member/index.php:258 template/member.php:274
+msgid "Edit Member"
+msgstr ""
+
+#: admin/member/index.php:271 admin/workout-type/add_workout_type.php:110
+#: template/member.php:276
+msgid "Add Member"
+msgstr ""
+
+#: admin/member/index.php:347 admin/member/index.php:362
+#: admin/prospect/index.php:291 admin/prospect/index.php:306
+#: template/alumni.php:292 template/alumni.php:306 template/member.php:399
+#: template/member.php:413 template/prospect.php:292 template/prospect.php:306
+msgid "Member Type"
+msgstr ""
+
+#: admin/member/index.php:392 template/member.php:451 template/member.php:528
+msgid "Not Selected"
+msgstr ""
+
+#: admin/member/index.php:398 gmgt_function.php:275 gmgt_function.php:1664
+#: template/member.php:454 template/member.php:490 template/member.php:532
+msgid "Prospect"
+msgstr ""
+
+#: admin/member/view_member.php:152 fronted_template.php:396
+#: template/view_member.php:157
+msgid "MemberShip"
+msgstr ""
+
+#: admin/member/view_member.php:392 template/view_member.php:404
+msgid "My Photos"
+msgstr ""
+
+#: admin/member/view_member.php:394 template/view_member.php:406
+msgid "Add Photo"
+msgstr ""
+
+#: admin/member/view_member.php:516 admin/member/view_member.php:527
+#: admin/membership_payment/index.php:162
+#: admin/membership_payment/index.php:176 admin/payment/income-list.php:44
+#: admin/payment/income-list.php:57 admin/store/index.php:167
+#: admin/store/index.php:180 gmgt_function.php:4099
+#: template/membership_payment.php:223 template/membership_payment.php:237
+#: template/payment.php:340 template/payment.php:353 template/store.php:252
+#: template/store.php:266 template/view_member.php:529
+#: template/view_member.php:540
+msgid "Paid Amount"
+msgstr ""
+
+#: admin/membership/add_membership - Copy.php:199 Copy.php:203
+#: admin/membership/add_membership.php:201
+#: admin/membership/add_membership.php:205
+#: admin/membership/view-activity.php:30 admin/membership/view-activity.php:33
+#: gmgt_function.php:1715
+msgid "Select Activity"
+msgstr ""
+
+#: admin/membership/add_membership.php:127
+msgid "Class Limit"
+msgstr ""
+
+#: admin/membership/add_membership.php:145 gmgt_function.php:5010
+msgid "No Of Class"
+msgstr ""
+
+#: admin/membership/index.php:124
+msgid "Membership List"
+msgstr ""
+
+#: admin/membership/index.php:129 template/membership.php:161
+msgid "Edit Membership"
+msgstr ""
+
+#: admin/membership/index.php:139
+msgid "View Activity"
+msgstr ""
+
+#: admin/membership/index.php:197 admin/membership/index.php:208
+msgid "Membership Short Code"
+msgstr ""
+
+#: admin/membership/index.php:241
+msgid "View Activities"
+msgstr ""
+
+#: admin/membership_payment/add_membership_payment.php:53
+#: admin/nutrition/add_nutrition.php:86 admin/payment/add_income.php:62
+#: admin/payment/add_payment.php:38 admin/store/sell_product.php:88
+#: admin/workout-type/add_workout_type.php:95
+#: admin/workout/add_measurement.php:40 admin/workout/add_workout.php:144
+#: gmgt_function.php:1699 template/assign-workout.php:385
+#: template/nutrition.php:349 template/payment.php:689
+#: template/workouts.php:546 template/workouts.php:656
+msgid "Select Member"
+msgstr ""
+
+#: admin/membership_payment/add_membership_payment.php:72 settings.php:2051
+#: template/member.php:940
+msgid "Select Membership "
+msgstr ""
+
+#: admin/membership_payment/add_membership_payment.php:88
+#: admin/payment/add_payment.php:85 admin/payment/index.php:221
+#: admin/payment/index.php:230 admin/store/index.php:166
+#: admin/store/index.php:179 template/store.php:251 template/store.php:265
+msgid "Total Amount"
+msgstr ""
+
+#: admin/membership_payment/index.php:99
+msgid "Payment Successful"
+msgstr ""
+
+#: admin/membership_payment/index.php:111 template/membership_payment.php:210
+msgid "Membership Payment List"
+msgstr ""
+
+#: admin/membership_payment/index.php:116
+msgid "Edit Membership Payment Invoice"
+msgstr ""
+
+#: admin/membership_payment/index.php:122
+msgid "Generate Membership Payment Invoice"
+msgstr ""
+
+#: admin/membership_payment/index.php:158
+#: admin/membership_payment/index.php:172 template/membership_payment.php:219
+#: template/membership_payment.php:233
+msgid "Invoice Number"
+msgstr ""
+
+#: admin/membership_payment/index.php:233
+#: admin/membership_payment/index.php:257 admin/payment/income-list.php:159
+#: admin/payment/income-list.php:182 admin/payment/index.php:256
+#: admin/store/index.php:285 admin/store/index.php:303
+#: template/membership_payment.php:309 template/membership_payment.php:327
+#: template/payment.php:477 template/payment.php:508 template/payment.php:544
+#: template/store.php:386 template/store.php:413 template/store.php:447
+#: template/store.php:476 template/store.php:505
+msgid "View Invoice"
+msgstr ""
+
+#: admin/membership_payment/index.php:254 admin/payment/income-list.php:157
+#: admin/store/index.php:283 template/membership_payment.php:322
+#: template/payment.php:475 template/payment.php:542 template/store.php:384
+#: template/store.php:445
+msgid "Pay"
+msgstr ""
+
+#: admin/message/composemail.php:15 template/message/composemail.php:205
+msgid "Edit Message"
+msgstr ""
+
+#: admin/message/composemail.php:29 template/message/composemail.php:219
+msgid "Message To"
+msgstr ""
+
+#: admin/message/composemail.php:32 template/message/composemail.php:222
+msgid "Members"
+msgstr ""
+
+#: admin/message/composemail.php:43 template/message/composemail.php:234
+msgid "if u are selecting one member then u need not select class!"
+msgstr ""
+
+#: admin/message/composemail.php:46 admin/message/sendbox.php:67
+#: admin/notice/add_notice.php:84 admin/notice/index.php:169
+#: gmgt_function.php:5069 template/message/composemail.php:237
+#: template/notice.php:186 template/notice.php:214 template/notice.php:244
+#: template/notice.php:301
+msgid "All"
+msgstr ""
+
+#: admin/message/composemail.php:58 admin/message/inbox.php:31
+#: admin/message/sendbox.php:34 admin/message/view_message.php:52
+#: template/inbox.php:48 template/message/composemail.php:249
+#: template/message/inbox.php:32 template/message/sendbox.php:38
+#: template/message/view_message.php:51
+msgid "Subject"
+msgstr ""
+
+#: admin/message/composemail.php:64 template/message/composemail.php:255
+msgid "Message Comment"
+msgstr ""
+
+#: admin/message/composemail.php:72
+msgid "SMS Text"
+msgstr ""
+
+#: admin/message/composemail.php:75
+msgid "Max. 160 Character"
+msgstr ""
+
+#: admin/message/composemail.php:82 template/message/composemail.php:264
+msgid "Save Message"
+msgstr ""
+
+#: admin/message/composemail.php:82 template/message/composemail.php:264
+msgid "Send Message"
+msgstr ""
+
+#: admin/message/inbox.php:30 admin/message/sendbox.php:32
+#: template/inbox.php:46 template/message/inbox.php:30
+#: template/message/sendbox.php:33
+msgid "Message For"
+msgstr ""
+
+#: admin/message/inbox.php:32 admin/message/sendbox.php:35
+#: admin/nutrition/add_nutrition.php:184 admin/payment/add_payment.php:107
+#: admin/workout-type/add_workout_type.php:143 gmgt_function.php:5442
+#: template/assign-workout.php:430 template/inbox.php:50
+#: template/message/inbox.php:34 template/message/sendbox.php:40
+#: template/nutrition.php:243 template/nutrition.php:457
+msgid "Description"
+msgstr ""
+
+#: admin/message/index.php:161 template/message/composemail.php:188
+msgid "Message Sent Successfully!"
+msgstr ""
+
+#: admin/message/index.php:180 admin/message/index.php:189
+#: template/message.php:48 template/message.php:61
+msgid "Compose"
+msgstr ""
+
+#: admin/message/index.php:185 admin/message/index.php:197
+#: template/message.php:57 template/message.php:75
+msgid "Inbox"
+msgstr ""
+
+#: admin/message/index.php:187 template/message.php:59
+msgid "Sent Item"
+msgstr ""
+
+#: admin/message/index.php:198 template/message.php:79
+msgid "Sent"
+msgstr ""
+
+#: admin/message/view_message.php:66 template/message/view_message.php:65
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+#: admin/message/view_message.php:100 template/message/view_message.php:115
+msgid "Reply"
+msgstr ""
+
+#: admin/news-letter/campaign.php:8 template/news_letter.php:172
+msgid "MailChimp list"
+msgstr ""
+
+#: admin/news-letter/campaign.php:11 admin/news-letter/sync.php:30
+#: template/news_letter.php:148 template/news_letter.php:175
+msgid "Select list"
+msgstr ""
+
+#: admin/news-letter/campaign.php:26 template/news_letter.php:186
+msgid "Campaign list"
+msgstr ""
+
+#: admin/news-letter/campaign.php:29 template/news_letter.php:189
+msgid "Select Campaign"
+msgstr ""
+
+#: admin/news-letter/campaign.php:44 template/news_letter.php:200
+msgid "Send Campaign"
+msgstr ""
+
+#: admin/news-letter/index.php:18
+msgid "Save Setting Successfully"
+msgstr ""
+
+#: admin/news-letter/index.php:53
+msgid "Synchronize Mail Successfully"
+msgstr ""
+
+#: admin/news-letter/index.php:74
+msgid "Campaign Tests Not Sent!"
+msgstr ""
+
+#: admin/news-letter/index.php:76
+msgid "Campaign Tests Sent!"
+msgstr ""
+
+#: admin/news-letter/index.php:96 template/news_letter.php:87
+msgid "Setting"
+msgstr ""
+
+#: admin/news-letter/index.php:100 admin/news-letter/sync.php:41
+#: template/news_letter.php:93 template/news_letter.php:159
+msgid "Sync Mail"
+msgstr ""
+
+#: admin/news-letter/index.php:103 template/news_letter.php:97
+msgid "Campaign"
+msgstr ""
+
+#: admin/news-letter/index.php:113 template/news_letter.php:106
+msgid "MailChimp API key"
+msgstr ""
+
+#: admin/news-letter/sync.php:27
+msgid "Mailing List"
+msgstr ""
+
+#: admin/notice/add_notice.php:81 admin/notice/index.php:129
+#: admin/notice/index.php:140 gmgt_function.php:1069 template/notice.php:127
+#: template/notice.php:141 template/notice.php:298
+msgid "Notice For"
+msgstr ""
+
+#: admin/notice/add_notice.php:120
+msgid "Notice Start Date"
+msgstr ""
+
+#: admin/notice/add_notice.php:128
+msgid "Notice End Date"
+msgstr ""
+
+#: admin/notice/add_notice.php:136 admin/notice/index.php:128
+#: admin/notice/index.php:139 gmgt_function.php:1063 template/notice.php:126
+#: template/notice.php:140 template/notice.php:327
+msgid "Notice Comment"
+msgstr ""
+
+#: admin/notice/add_notice.php:142 template/notice.php:335
+msgid "Save Notice"
+msgstr ""
+
+#: admin/notice/index.php:83 template/notice.php:98
+msgid "Notice List"
+msgstr ""
+
+#: admin/notice/index.php:88
+msgid "Edit Notice"
+msgstr ""
+
+#: admin/notice/index.php:94 template/notice.php:111
+msgid "Add Notice"
+msgstr ""
+
+#: admin/nutrition/add_nutrition.php:130 template/nutrition.php:395
+msgid "Break Fast"
+msgstr ""
+
+#: admin/nutrition/add_nutrition.php:135 gmgt_function.php:3781
+#: template/nutrition.php:400
+msgid "Lunch"
+msgstr ""
+
+#: admin/nutrition/add_nutrition.php:139 gmgt_function.php:3793
+#: template/nutrition.php:404
+msgid "Dinner"
+msgstr ""
+
+#: admin/nutrition/add_nutrition.php:148 template/nutrition.php:413
+msgid "Step-1 Add Nutrition"
+msgstr ""
+
+#: admin/nutrition/add_nutrition.php:156 template/nutrition.php:421
+msgid "Step 2 Save Nutrition Plan"
+msgstr ""
+
+#: admin/nutrition/add_nutrition.php:180
+#: admin/workout-type/add_workout_type.php:240 gmgt_function.php:5269
+#: gmgt_function.php:5440 template/assign-workout.php:178
+#: template/assign-workout.php:537 template/nutrition.php:239
+#: template/nutrition.php:453
+msgid "Day Name"
+msgstr ""
+
+#: admin/nutrition/add_nutrition.php:183 gmgt_function.php:5441
+#: template/nutrition.php:242 template/nutrition.php:456
+msgid "Time"
+msgstr ""
+
+#: admin/nutrition/index.php:91 template/nutrition.php:182
+msgid "Nutrition Schedule List"
+msgstr ""
+
+#: admin/nutrition/index.php:96
+msgid "View Nutrition Schedule"
+msgstr ""
+
+#: admin/nutrition/index.php:102 template/nutrition.php:202
+msgid "Add Nutrition Schedule"
+msgstr ""
+
+#: admin/nutrition/index.php:133 admin/nutrition/index.php:141
+#: admin/workout-type/index.php:137 admin/workout-type/index.php:147
+#: template/assign-workout.php:224 template/assign-workout.php:232
+#: template/nutrition.php:272 template/nutrition.php:280
+msgid "Member Goal"
+msgstr ""
+
+#: admin/nutrition/index.php:173 template/nutrition.php:312
+msgid "View Nutrition"
+msgstr ""
+
+#: admin/payment/add_expense.php:44 admin/payment/expense-list.php:25
+#: admin/payment/expense-list.php:33 template/payment.php:901
+#: template/payment.php:911 template/payment.php:1012
+msgid "Supplier Name"
+msgstr ""
+
+#: admin/payment/add_expense.php:53 admin/payment/add_expense.php:54
+#: admin/payment/add_income.php:85 admin/payment/add_income.php:86
+#: admin/payment/add_payment.php:97 admin/payment/add_payment.php:98
+#: template/payment.php:713 template/payment.php:714 template/payment.php:1021
+#: template/payment.php:1022
+msgid "Paid"
+msgstr ""
+
+#: admin/payment/add_expense.php:55 admin/payment/add_expense.php:56
+#: admin/payment/add_income.php:87 admin/payment/add_income.php:88
+#: admin/payment/add_payment.php:99 admin/payment/add_payment.php:100
+#: template/payment.php:715 template/payment.php:716 template/payment.php:1023
+#: template/payment.php:1024
+msgid "Part Paid"
+msgstr ""
+
+#: admin/payment/add_expense.php:57 admin/payment/add_expense.php:58
+#: admin/payment/add_income.php:89 admin/payment/add_income.php:90
+#: admin/payment/add_payment.php:101 admin/payment/add_payment.php:102
+#: template/payment.php:717 template/payment.php:718 template/payment.php:1025
+#: template/payment.php:1026
+msgid "Unpaid"
+msgstr ""
+
+#: admin/payment/add_expense.php:107 admin/payment/add_expense.php:144
+#: template/payment.php:1076 template/payment.php:1112
+msgid "Expense Entry"
+msgstr ""
+
+#: admin/payment/add_expense.php:146
+msgid "Expense Amount"
+msgstr ""
+
+#: admin/payment/add_expense.php:150
+msgid "Expense Entry Label"
+msgstr ""
+
+#: admin/payment/add_expense.php:165 template/payment.php:1134
+msgid "Add Expense Entry"
+msgstr ""
+
+#: admin/payment/add_expense.php:171 template/payment.php:1140
+msgid "Save Expense"
+msgstr ""
+
+#: admin/payment/add_expense.php:171 admin/payment/index.php:188
+#: template/payment.php:296 template/payment.php:1140
+msgid "Add Expense"
+msgstr ""
+
+#: admin/payment/add_income.php:75 template/payment.php:702
+msgid "Income label"
+msgstr ""
+
+#: admin/payment/add_income.php:141 admin/payment/add_income.php:177
+#: template/payment.php:770 template/payment.php:806
+msgid "Income Entry"
+msgstr ""
+
+#: admin/payment/add_income.php:179
+msgid "Income Amount"
+msgstr ""
+
+#: admin/payment/add_income.php:182
+msgid "Income Entry Label"
+msgstr ""
+
+#: admin/payment/add_income.php:197 template/payment.php:826
+msgid "Add Income Entry"
+msgstr ""
+
+#: admin/payment/add_income.php:202 admin/store/sell_product.php:235
+#: template/payment.php:831 template/store.php:711
+msgid "Tax"
+msgstr ""
+
+#: admin/payment/add_income.php:212 admin/store/sell_product.php:223
+#: template/payment.php:841 template/store.php:699
+msgid "Discount Amount "
+msgstr ""
+
+#: admin/payment/add_income.php:222 template/payment.php:852
+msgid "Save Income"
+msgstr ""
+
+#: admin/payment/add_income.php:222 admin/payment/index.php:174
+#: template/payment.php:269 template/payment.php:852
+msgid "Add Income"
+msgstr ""
+
+#: admin/payment/add_payment.php:59
+msgid "Due Date"
+msgstr ""
+
+#: admin/payment/add_payment.php:76 gmgt_function.php:3234
+#: gmgt_function.php:3680
+msgid "Discount Amount"
+msgstr ""
+
+#: admin/payment/expense-list.php:54 template/payment.php:946
+msgid "View Expense"
+msgstr ""
+
+#: admin/payment/income-list.php:41 admin/payment/income-list.php:54
+#: template/payment.php:337 template/payment.php:350
+msgid "Income Name"
+msgstr ""
+
+#: admin/payment/income-list.php:42 admin/payment/income-list.php:55
+#: admin/store/index.php:163 admin/store/index.php:176 template/payment.php:338
+#: template/payment.php:351 template/store.php:248 template/store.php:262
+msgid "Invoice No"
+msgstr ""
+
+#: admin/payment/index.php:151 admin/store/index.php:103
+#: template/membership_payment.php:48 template/membership_payment.php:94
+#: template/payment.php:45 template/store.php:44 template/store.php:160
+msgid "Payment successfully"
+msgstr ""
+
+#: admin/payment/index.php:164 template/payment.php:251
+msgid "Income List"
+msgstr ""
+
+#: admin/payment/index.php:168 template/payment.php:260
+msgid "Edit Income"
+msgstr ""
+
+#: admin/payment/index.php:177 template/payment.php:281
+msgid "Expense List"
+msgstr ""
+
+#: admin/payment/index.php:182 template/payment.php:288
+msgid "Edit Expense"
+msgstr ""
+
+#: admin/payment/index.php:222 admin/payment/index.php:231
+msgid "Payment Date"
+msgstr ""
+
+#: admin/product/add_product.php:25 admin/product/index.php:129
+#: admin/product/index.php:137 admin/store/sell_product.php:285
+#: template/product.php:148 template/product.php:163 template/product.php:257
+msgid "Product Name"
+msgstr ""
+
+#: admin/product/add_product.php:31 admin/product/index.php:130
+#: admin/product/index.php:138 admin/store/sell_product.php:291
+#: template/product.php:149 template/product.php:164 template/product.php:263
+msgid "Product Price"
+msgstr ""
+
+#: admin/product/add_product.php:40 admin/product/index.php:131
+#: admin/product/index.php:139 admin/store/sell_product.php:141
+#: admin/store/sell_product.php:166 admin/store/sell_product.php:201
+#: admin/store/sell_product.php:297 admin/store/sell_product.php:326
+#: template/product.php:150 template/product.php:165 template/product.php:272
+msgid "Product Quantity"
+msgstr ""
+
+#: admin/product/index.php:89 template/product.php:117
+msgid "Product List"
+msgstr ""
+
+#: admin/product/index.php:94
+msgid "Edit Product"
+msgstr ""
+
+#: admin/product/index.php:100 admin/store/sell_product.php:277
+#: template/product.php:132
+msgid "Add Product"
+msgstr ""
+
+#: admin/report/attendance_report.php:93
+msgid "There is not enough data to generate report."
+msgstr ""
+
+#: admin/report/feepayment_report.php:19
+msgid "Fee Payment Report By Month"
+msgstr ""
+
+#: admin/report/income_report.php:13 admin/report/income_report.php:32
+#: admin/report/index.php:28
+msgid "Income Payment"
+msgstr ""
+
+#: admin/report/income_report.php:19
+msgid "Income Payment Report By Month"
+msgstr ""
+
+#: admin/report/index.php:32
+msgid "Sell Product Payment"
+msgstr ""
+
+#: admin/report/membership_report.php:19
+#: admin/report/membership_status_report.php:19
+msgid "Number Of Member"
+msgstr ""
+
+#: admin/report/membership_report.php:25
+msgid "Membership Report"
+msgstr ""
+
+#: admin/report/membership_status_report.php:25
+msgid "Membership by status"
+msgstr ""
+
+#: admin/report/sell_product_payment_report.php:19
+msgid "Sells Product Payment Report By Month"
+msgstr ""
+
+#: admin/report/sell_product_payment_report.php:32
+msgid "Sells Product Payment"
+msgstr ""
+
+#: admin/reservation/add_reservation.php:68 template/reservation.php:388
+msgid "Select Event Place"
+msgstr ""
+
+#: admin/reservation/index.php:53
+msgid "not valaidate."
+msgstr ""
+
+#: admin/reservation/index.php:70 template/reservation.php:87
+#: template/reservation.php:138
+msgid "This Date is Already Reserved."
+msgstr ""
+
+#: admin/reservation/index.php:170
+msgid "This Date is Already Reserved Event."
+msgstr ""
+
+#: admin/reservation/index.php:183 template/reservation.php:226
+msgid "Reservation List"
+msgstr ""
+
+#: admin/reservation/index.php:187 template/reservation.php:233
+msgid "Edit Reservation"
+msgstr ""
+
+#: admin/reservation/index.php:193 template/reservation.php:241
+msgid "Add Reservation"
+msgstr ""
+
+#: admin/reservation/index.php:227 admin/reservation/index.php:238
+#: template/reservation.php:260 template/reservation.php:271
+msgid "Place"
+msgstr ""
+
+#: admin/reservation/index.php:230 admin/reservation/index.php:241
+#: template/reservation.php:263 template/reservation.php:274
+msgid "Reserved By"
+msgstr ""
+
+#: admin/setupform/index.php:38
+msgid ""
+"There seems to be some problem please try after sometime or contact us on "
+"sales@dasinfomeida.com"
+msgstr ""
+
+#: admin/setupform/index.php:46
+msgid "Please provide correct Envato purchase key."
+msgstr ""
+
+#: admin/setupform/index.php:65
+msgid "Domain"
+msgstr ""
+
+#: admin/setupform/index.php:76
+msgid "Envato License key"
+msgstr ""
+
+#: admin/setupform/index.php:88
+msgid "Submit"
+msgstr ""
+
+#: admin/staff-members/index.php:127 template/staff_member.php:32
+msgid "Staff Member List"
+msgstr ""
+
+#: admin/staff-members/index.php:132
+msgid "Edit Staff Member"
+msgstr ""
+
+#: admin/staff-members/index.php:173 admin/staff-members/index.php:183
+#: template/staff_member.php:44 template/staff_member.php:53
+msgid "Role"
+msgstr ""
+
+#: admin/staff-members/index.php:174 admin/staff-members/index.php:184
+#: template/accountant.php:42 template/accountant.php:50
+#: template/staff_member.php:45 template/staff_member.php:54
+msgid "Staff Member Email"
+msgstr ""
+
+#: admin/store/index.php:94 template/store.php:152
+msgid "Out of Stock product"
+msgstr ""
+
+#: admin/store/index.php:116 template/store.php:218
+msgid "Sells Record"
+msgstr ""
+
+#: admin/store/index.php:121 template/store.php:224
+msgid "Edit Sell Product"
+msgstr ""
+
+#: admin/store/index.php:127
+msgid "Add New Sell Product"
+msgstr ""
+
+#: admin/store/index.php:165 admin/store/index.php:178 template/store.php:250
+#: template/store.php:264
+msgid "Product Name=>Product Quantity"
+msgstr ""
+
+#: admin/store/index.php:269 template/store.php:373
+msgid "Fully Paid"
+msgstr ""
+
+#: admin/store/sell_product.php:125 admin/store/sell_product.php:150
+#: admin/store/sell_product.php:186 admin/store/sell_product.php:326
+#: template/store.php:601 template/store.php:626 template/store.php:662
+#: template/store.php:737
+msgid "Select Product"
+msgstr ""
+
+#: admin/store/sell_product.php:147 admin/store/sell_product.php:183
+#: admin/store/sell_product.php:326 template/store.php:623
+#: template/store.php:659 template/store.php:737
+msgid "Product Entry"
+msgstr ""
+
+#: admin/store/sell_product.php:217 template/store.php:693
+msgid "Add Product Entry"
+msgstr ""
+
+#: admin/store/sell_product.php:225
+msgid "Discount must be Amount Like 100"
+msgstr ""
+
+#: admin/store/sell_product.php:238
+msgid "Tax must be percentage %"
+msgstr ""
+
+#: admin/store/sell_product.php:247
+msgid "Total Amount "
+msgstr ""
+
+#: admin/workout-type/add_workout_type.php:114 template/assign-workout.php:401
+msgid "Level"
+msgstr ""
+
+#: admin/workout-type/add_workout_type.php:117 template/assign-workout.php:405
+msgid "Select Level"
+msgstr ""
+
+#: admin/workout-type/add_workout_type.php:209 template/assign-workout.php:497
+msgid "Step-1 Add Workout"
+msgstr ""
+
+#: admin/workout-type/add_workout_type.php:216 template/assign-workout.php:503
+msgid "Step-2 Save Workout"
+msgstr ""
+
+#: admin/workout-type/add_workout_type.php:244 gmgt_function.php:1111
+#: gmgt_function.php:1124 gmgt_function.php:4745 gmgt_function.php:5271
+#: template/assign-workout.php:182 template/assign-workout.php:541
+msgid "Sets"
+msgstr ""
+
+#: admin/workout-type/add_workout_type.php:245 gmgt_function.php:1112
+#: gmgt_function.php:1125 gmgt_function.php:4746 gmgt_function.php:5272
+#: template/assign-workout.php:183 template/assign-workout.php:542
+msgid "Reps"
+msgstr ""
+
+#: admin/workout-type/add_workout_type.php:246 gmgt_function.php:1113
+#: gmgt_function.php:4747 gmgt_function.php:5273
+#: template/assign-workout.php:184 template/assign-workout.php:543
+msgid "KG"
+msgstr ""
+
+#: admin/workout-type/add_workout_type.php:247 gmgt_function.php:1114
+#: gmgt_function.php:5274 template/assign-workout.php:185
+#: template/assign-workout.php:544
+msgid "Rest Time"
+msgstr ""
+
+#: admin/workout-type/index.php:92 template/assign-workout.php:124
+msgid "Workout Log"
+msgstr ""
+
+#: admin/workout-type/index.php:97 template/assign-workout.php:135
+msgid "View Assigned Workout"
+msgstr ""
+
+#: admin/workout-type/index.php:139 admin/workout-type/index.php:149
+msgid "Workout Time"
+msgstr ""
+
+#: admin/workout-type/index.php:191 admin/workout/add_workout.php:56
+#: template/assign-workout.php:279 template/workouts.php:456
+msgid "View Workouts"
+msgstr ""
+
+#: admin/workout/add_measurement.php:55 template/workouts.php:679
+msgid "Result Measurement"
+msgstr ""
+
+#: admin/workout/add_measurement.php:69 template/workouts.php:693
+msgid "Select Result Measurement "
+msgstr ""
+
+#: admin/workout/add_measurement.php:109 admin/workout/measurement_list.php:25
+#: admin/workout/measurement_list.php:35 gmgt_function.php:3930
+#: template/workouts.php:734
+msgid "Result"
+msgstr ""
+
+#: admin/workout/add_measurement.php:118 admin/workout/add_workout.php:159
+#: admin/workout/measurement_list.php:26 admin/workout/measurement_list.php:36
+#: gmgt_function.php:3931 template/workouts.php:569 template/workouts.php:744
+msgid "Record Date"
+msgstr ""
+
+#: admin/workout/add_measurement.php:164 template/workouts.php:789
+msgid "Save Measurement"
+msgstr ""
+
+#: admin/workout/add_workout.php:126 template/workouts.php:528
+msgid "No Data Of Today workout"
+msgstr ""
+
+#: admin/workout/add_workout.php:167 template/workouts.php:579
+msgid "Workout"
+msgstr ""
+
+#: admin/workout/add_workout.php:169 template/workouts.php:581
+msgid "Select Record Date For Today Workout"
+msgstr ""
+
+#: admin/workout/add_workout.php:176 template/workouts.php:588
+msgid "Note"
+msgstr ""
+
+#: admin/workout/index.php:33 admin/workout/index.php:55
+#: template/workouts.php:80 template/workouts.php:101
+msgid "Today Can Not Assign Workout"
+msgstr ""
+
+#: admin/workout/index.php:67 template/workouts.php:113
+msgid "Workout is already available for today."
+msgstr ""
+
+#: admin/workout/index.php:171 template/workouts.php:210
+msgid "Workout List"
+msgstr ""
+
+#: admin/workout/index.php:176 template/workouts.php:219
+msgid "View Workout"
+msgstr ""
+
+#: admin/workout/index.php:182 template/workouts.php:228
+msgid "Add Workout"
+msgstr ""
+
+#: admin/workout/index.php:191 template/workouts.php:241
+msgid "Edit Measurement"
+msgstr ""
+
+#: admin/workout/index.php:194 gmgt_function.php:1490 gmgt_function.php:1494
+#: template/workouts.php:250
+msgid "Add Measurement"
+msgstr ""
+
+#: admin/workout/index.php:230 admin/workout/index.php:242
+#: template/workouts.php:271 template/workouts.php:284
+msgid "Mobile"
+msgstr ""
+
+#: admin/workout/index.php:279 template/workouts.php:323
+#: template/workouts.php:368
+msgid "View Measurement"
+msgstr ""
+
+#: admin/workout/measurement_list.php:24 admin/workout/measurement_list.php:34
+#: gmgt_function.php:3929
+msgid "Measurement"
+msgstr ""
+
+#: class/class_schedule.php:210
+msgid "Class book successfully"
+msgstr ""
+
+#: class/class_schedule.php:215
+msgid "Class Limit is over"
+msgstr ""
+
+#: class/class_schedule.php:220
+msgid "Your Membership is expire"
+msgstr ""
+
+#: class/class_schedule.php:225
+msgid "Your Booking day is not between membership period"
+msgstr ""
+
+#: class/gym-management.php:118
+msgid "Weight Report"
+msgstr ""
+
+#: class/member.php:388 class/membership_payment.php:131
+msgid "Fees Payment"
+msgstr ""
+
+#: fronted_template.php:46
+msgid " Birthday"
+msgstr ""
+
+#: fronted_template.php:228
+msgid "My Profile"
+msgstr ""
+
+#: fronted_template.php:230
+msgid "Log Out"
+msgstr ""
+
+#: fronted_template.php:252
+msgid "Home"
+msgstr ""
+
+#: fronted_template.php:457
+msgid "Today Workout"
+msgstr ""
+
+#: fronted_template.php:494
+msgid "Weight Progress Report"
+msgstr ""
+
+#: fronted_template.php:521
+msgid "Waist Progress Report"
+msgstr ""
+
+#: fronted_template.php:552
+msgid "Height Progress Report"
+msgstr ""
+
+#: fronted_template.php:580
+msgid "Chest Progress Report"
+msgstr ""
+
+#: fronted_template.php:609
+msgid "Thigh Progress Report"
+msgstr ""
+
+#: fronted_template.php:638
+msgid "Arms Progress Report"
+msgstr ""
+
+#: fronted_template.php:667
+msgid "Fat Progress Report"
+msgstr ""
+
+#: gmgt_function.php:275 gmgt_function.php:1665
+msgid "Alumni"
+msgstr ""
+
+#: gmgt_function.php:734 gmgt_function.php:847
+msgid "Payment successfull."
+msgstr ""
+
+#: gmgt_function.php:839
+msgid ""
+"Login failed: You have entered an incorrect Username or password, please try "
+"again."
+msgstr ""
+
+#: gmgt_function.php:853
+msgid "Payment Cancel."
+msgstr ""
+
+#: gmgt_function.php:861 template/account.php:169
+msgid "Username"
+msgstr ""
+
+#: gmgt_function.php:863
+msgid "Remember Me"
+msgstr ""
+
+#: gmgt_function.php:864
+msgid "Log In"
+msgstr ""
+
+#: gmgt_function.php:890
+msgid "You can login after admin approve your registration."
+msgstr ""
+
+#: gmgt_function.php:900
+msgid "Logout"
+msgstr ""
+
+#: gmgt_function.php:906
+msgid "Forgot your password?"
+msgstr ""
+
+#: gmgt_function.php:1050
+msgid "Notice Detail"
+msgstr ""
+
+#: gmgt_function.php:1126
+msgid "Kg"
+msgstr ""
+
+#: gmgt_function.php:1127 gmgt_function.php:4748
+msgid "Min"
+msgstr ""
+
+#: gmgt_function.php:1130
+msgid "Your Workout"
+msgstr ""
+
+#: gmgt_function.php:1142
+msgid "No Workout assigned for today"
+msgstr ""
+
+#: gmgt_function.php:1193
+msgid "You have entered value already exists. Please enter some other value."
+msgstr ""
+
+#: gmgt_function.php:1368
+msgid "title"
+msgstr ""
+
+#: gmgt_function.php:1370
+msgid "header"
+msgstr ""
+
+#: gmgt_function.php:1372
+msgid "Add category"
+msgstr ""
+
+#: gmgt_function.php:1374
+msgid "category Name"
+msgstr ""
+
+#: gmgt_function.php:1380
+msgid "Add Membership Category"
+msgstr ""
+
+#: gmgt_function.php:1382 gmgt_function.php:1386
+msgid "Category Name"
+msgstr ""
+
+#: gmgt_function.php:1384
+msgid "Add Category"
+msgstr ""
+
+#: gmgt_function.php:1392
+msgid "Add Installment Plan"
+msgstr ""
+
+#: gmgt_function.php:1394
+msgid "Plan Name"
+msgstr ""
+
+#: gmgt_function.php:1396
+msgid "Add Plan"
+msgstr ""
+
+#: gmgt_function.php:1398
+msgid "Installment  Plan Name"
+msgstr ""
+
+#: gmgt_function.php:1404 gmgt_function.php:1408
+msgid "Add Membership Period"
+msgstr ""
+
+#: gmgt_function.php:1406 gmgt_function.php:1410
+msgid "Membership Period Name"
+msgstr ""
+
+#: gmgt_function.php:1412
+msgid "Only Number of Days"
+msgstr ""
+
+#: gmgt_function.php:1418
+msgid "Add Role Type"
+msgstr ""
+
+#: gmgt_function.php:1422
+msgid "Add Role"
+msgstr ""
+
+#: gmgt_function.php:1430 gmgt_function.php:1434
+msgid "Add Specialization"
+msgstr ""
+
+#: gmgt_function.php:1432 gmgt_function.php:1436
+msgid "Specialization Name"
+msgstr ""
+
+#: gmgt_function.php:1442 gmgt_function.php:1446
+msgid "Add Intrest Area"
+msgstr ""
+
+#: gmgt_function.php:1444 gmgt_function.php:1448
+msgid "Intrest Area Name"
+msgstr ""
+
+#: gmgt_function.php:1454 gmgt_function.php:1458
+msgid "Add Source"
+msgstr ""
+
+#: gmgt_function.php:1456 gmgt_function.php:1460
+msgid "Source Name"
+msgstr ""
+
+#: gmgt_function.php:1466
+msgid "Add Event Place"
+msgstr ""
+
+#: gmgt_function.php:1468 gmgt_function.php:1472
+msgid "Place Name"
+msgstr ""
+
+#: gmgt_function.php:1470
+msgid "Add Place"
+msgstr ""
+
+#: gmgt_function.php:1478 gmgt_function.php:1482
+msgid "Add Activity Category"
+msgstr ""
+
+#: gmgt_function.php:1480 gmgt_function.php:1484
+msgid "Activity Category Name"
+msgstr ""
+
+#: gmgt_function.php:1492 gmgt_function.php:1496
+msgid "Measurement Name"
+msgstr ""
+
+#: gmgt_function.php:1502
+msgid "Add Level Type"
+msgstr ""
+
+#: gmgt_function.php:1504 gmgt_function.php:1508
+msgid "Level Name"
+msgstr ""
+
+#: gmgt_function.php:1506
+msgid "Add Level"
+msgstr ""
+
+#: gmgt_function.php:1514 gmgt_function.php:1518
+msgid "Add Workout Limit"
+msgstr ""
+
+#: gmgt_function.php:1516 gmgt_function.php:1520
+msgid "Workout Limit"
+msgstr ""
+
+#: gmgt_function.php:1526 gmgt_function.php:1530
+msgid "Add Calories Category"
+msgstr ""
+
+#: gmgt_function.php:1528 gmgt_function.php:1532
+msgid "Calories"
+msgstr ""
+
+#: gmgt_function.php:1652
+msgid "Sunday"
+msgstr ""
+
+#: gmgt_function.php:1653
+msgid "Monday"
+msgstr ""
+
+#: gmgt_function.php:1654
+msgid "Tuesday"
+msgstr ""
+
+#: gmgt_function.php:1655
+msgid "Wednesday"
+msgstr ""
+
+#: gmgt_function.php:1656
+msgid "Thursday"
+msgstr ""
+
+#: gmgt_function.php:1657
+msgid "Friday"
+msgstr ""
+
+#: gmgt_function.php:1658
+msgid "Saturday"
+msgstr ""
+
+#: gmgt_function.php:1663
+msgid "Active Member"
+msgstr ""
+
+#: gmgt_function.php:1785 gmgt_function.php:2308
+msgid "| Bill To."
+msgstr ""
+
+#: gmgt_function.php:1867 gmgt_function.php:2388 gmgt_function.php:2914
+#: gmgt_function.php:3423
+msgid "INVOICE"
+msgstr ""
+
+#: gmgt_function.php:1885 gmgt_function.php:2406 gmgt_function.php:2938
+#: gmgt_function.php:3447
+msgid "Membership Entries"
+msgstr ""
+
+#: gmgt_function.php:1900 gmgt_function.php:2421 gmgt_function.php:2951
+#: gmgt_function.php:3460
+msgid "Income Entries"
+msgstr ""
+
+#: gmgt_function.php:1915 gmgt_function.php:2436 gmgt_function.php:2964
+#: gmgt_function.php:3473
+msgid "Sells Product"
+msgstr ""
+
+#: gmgt_function.php:1929 gmgt_function.php:2450 gmgt_function.php:2977
+#: gmgt_function.php:3486
+msgid "Expense Entries"
+msgstr ""
+
+#: gmgt_function.php:1947 gmgt_function.php:1958 gmgt_function.php:1971
+#: gmgt_function.php:2468 gmgt_function.php:2479 gmgt_function.php:2492
+#: gmgt_function.php:3001 gmgt_function.php:3014 gmgt_function.php:3500
+#: gmgt_function.php:3510 gmgt_function.php:3523 gmgt_function.php:3713
+msgid "DATE"
+msgstr ""
+
+#: gmgt_function.php:1948 gmgt_function.php:2469 gmgt_function.php:3501
+#: gmgt_function.php:4218
+msgid "Fees Type"
+msgstr ""
+
+#: gmgt_function.php:1959 gmgt_function.php:2480 gmgt_function.php:3002
+#: gmgt_function.php:3511
+msgid "PRODUCT NAME"
+msgstr ""
+
+#: gmgt_function.php:1960 gmgt_function.php:2481 gmgt_function.php:3003
+#: gmgt_function.php:3512
+msgid "QUANTITY"
+msgstr ""
+
+#: gmgt_function.php:1961 gmgt_function.php:2482 gmgt_function.php:3004
+#: gmgt_function.php:3513
+msgid "PRICE"
+msgstr ""
+
+#: gmgt_function.php:1962 gmgt_function.php:2483 gmgt_function.php:3005
+#: gmgt_function.php:3514
+msgid "TOTAL"
+msgstr ""
+
+#: gmgt_function.php:1972 gmgt_function.php:2493 gmgt_function.php:3015
+#: gmgt_function.php:3524
+msgid "ENTRY"
+msgstr ""
+
+#: gmgt_function.php:2151 gmgt_function.php:2674 gmgt_function.php:3228
+#: gmgt_function.php:3674 gmgt_function.php:4233
+msgid "Subtotal :"
+msgstr ""
+
+#: gmgt_function.php:2161 gmgt_function.php:2684
+msgid "Discount Amount :"
+msgstr ""
+
+#: gmgt_function.php:2165 gmgt_function.php:2688 gmgt_function.php:3238
+#: gmgt_function.php:3684
+msgid "Tax Amount :"
+msgstr ""
+
+#: gmgt_function.php:2172 gmgt_function.php:2695 gmgt_function.php:3243
+#: gmgt_function.php:3689
+msgid "Due Amount :"
+msgstr ""
+
+#: gmgt_function.php:2176 gmgt_function.php:2699 gmgt_function.php:3247
+#: gmgt_function.php:3693
+msgid "Paid Amount :"
+msgstr ""
+
+#: gmgt_function.php:2183 gmgt_function.php:2706 gmgt_function.php:3251
+#: gmgt_function.php:3697
+msgid "Grand Total :"
+msgstr ""
+
+#: gmgt_function.php:2196 gmgt_function.php:2719 gmgt_function.php:3155
+#: gmgt_function.php:3623
+msgid "Payment Method"
+msgstr ""
+
+#: gmgt_function.php:2201 gmgt_function.php:2724 gmgt_function.php:3160
+#: gmgt_function.php:3628
+msgid "Bank Name "
+msgstr ""
+
+#: gmgt_function.php:2205 gmgt_function.php:2728 gmgt_function.php:3164
+#: gmgt_function.php:3632
+msgid "Account No "
+msgstr ""
+
+#: gmgt_function.php:2210 gmgt_function.php:2733 gmgt_function.php:3168
+#: gmgt_function.php:3636
+msgid "IFSC Code "
+msgstr ""
+
+#: gmgt_function.php:2215 gmgt_function.php:2738 gmgt_function.php:3172
+#: gmgt_function.php:3640
+msgid "Paypal "
+msgstr ""
+
+#: gmgt_function.php:2226
+msgid "Print"
+msgstr ""
+
+#: gmgt_function.php:2231
+msgid "PDF"
+msgstr ""
+
+#: gmgt_function.php:2820
+msgid "A"
+msgstr ""
+
+#: gmgt_function.php:2821
+msgid "E"
+msgstr ""
+
+#: gmgt_function.php:2822
+msgid "P"
+msgstr ""
+
+#: gmgt_function.php:2838 gmgt_function.php:2991 gmgt_function.php:2992
+#: gmgt_function.php:2993 gmgt_function.php:3347 gmgt_function.php:4182
+msgid "Bill To"
+msgstr ""
+
+#: gmgt_function.php:3709 gmgt_function.php:4250
+msgid "Payment History"
+msgstr ""
+
+#: gmgt_function.php:3715 gmgt_function.php:4256
+msgid "Method"
+msgstr ""
+
+#: gmgt_function.php:3769
+msgid " Breakfast"
+msgstr ""
+
+#: gmgt_function.php:3775
+msgid "Midmorning Snack"
+msgstr ""
+
+#: gmgt_function.php:3787
+msgid "Afternoon Snack"
+msgstr ""
+
+#: gmgt_function.php:3799 gmgt_function.php:3805 gmgt_function.php:3811
+msgid "Afterdinner Snack"
+msgstr ""
+
+#: gmgt_function.php:3825
+msgid "Group Member"
+msgstr ""
+
+#: gmgt_function.php:3857
+msgid "No members yet"
+msgstr ""
+
+#: gmgt_function.php:3919
+msgid "'s Measurement"
+msgstr ""
+
+#: gmgt_function.php:3985
+msgid "No Record Found"
+msgstr ""
+
+#: gmgt_function.php:4106
+msgid "Payment By"
+msgstr ""
+
+#: gmgt_function.php:4113
+msgid "Cash"
+msgstr ""
+
+#: gmgt_function.php:4114
+msgid "Cheque"
+msgstr ""
+
+#: gmgt_function.php:4115
+msgid "Bank Transfer"
+msgstr ""
+
+#: gmgt_function.php:4131
+msgid "Add Payment"
+msgstr ""
+
+#: gmgt_function.php:4165
+msgid "Issue Date"
+msgstr ""
+
+#: gmgt_function.php:4179
+msgid "Payment To"
+msgstr ""
+
+#: gmgt_function.php:4219
+msgid "Total"
+msgstr ""
+
+#: gmgt_function.php:4237
+msgid "Payment Made :"
+msgstr ""
+
+#: gmgt_function.php:4241
+msgid "Due Amount  :"
+msgstr ""
+
+#: settings.php:117
+msgid "Instructor"
+msgstr ""
+
+#: settings.php:742
+msgid "Gym Management System"
+msgstr ""
+
+#: settings.php:1054
+msgid "Gym Management Login Page"
+msgstr ""
+
+#: settings.php:1086
+msgid "Member Registration or Login"
+msgstr ""
+
+#: settings.php:1118
+msgid "Buy Now"
+msgstr ""
+
+#: settings.php:1147
+msgid "Cost"
+msgstr ""
+
+#: settings.php:1504
+msgid "Existing User"
+msgstr ""
+
+#: settings.php:1507
+msgid "New User"
+msgstr ""
+
+#: settings.php:1754 template/member.php:654
+msgid "Select Group"
+msgstr ""
+
+#: settings.php:2137
+msgid "Registration"
+msgstr ""
+
+#: template/account.php:112
+msgid "My Activity"
+msgstr ""
+
+#: template/account.php:143
+msgid "Account Settings "
+msgstr ""
+
+#: template/account.php:175 template/account.php:177
+msgid "Current Password"
+msgstr ""
+
+#: template/account.php:181 template/account.php:183
+msgid "New Password"
+msgstr ""
+
+#: template/account.php:187 template/account.php:189
+msgid "Confirm Password"
+msgstr ""
+
+#: template/account.php:205
+msgid "Other Information"
+msgstr ""
+
+#: template/accountant.php:30
+msgid "Accountant List"
+msgstr ""
+
+#: template/activity.php:136
+msgid "Edit  Activity"
+msgstr ""
+
+#: template/alumni.php:265
+msgid "Alumni List"
+msgstr ""
+
+#: template/alumni.php:275
+msgid "View Alumni"
+msgstr ""
+
+#: template/assign-workout.php:212
+msgid "No Any Assigned Workout Data"
+msgstr ""
+
+#: template/attendence.php:124
+msgid "Select Class Name"
+msgstr ""
+
+#: template/class-schedule.php:275
+msgid "Booking List"
+msgstr ""
+
+#: template/class-schedule.php:293 template/class-schedule.php:303
+msgid "Booking Date"
+msgstr ""
+
+#: template/class-schedule.php:668
+msgid "Book"
+msgstr ""
+
+#: template/member.php:829
+msgid "Intrest Area"
+msgstr ""
+
+#: template/member.php:833
+msgid "Select Intrest"
+msgstr ""
+
+#: template/member.php:867
+msgid "Source"
+msgstr ""
+
+#: template/member.php:871
+msgid "Select Source"
+msgstr ""
+
+#: template/member.php:896
+msgid "Reffered By"
+msgstr ""
+
+#: template/member.php:901
+msgid "Select Reffered Member "
+msgstr ""
+
+#: template/member.php:929
+msgid "Triel End Date"
+msgstr ""
+
+#: template/member.php:988
+msgid "Begin Date"
+msgstr ""
+
+#: template/membership_details.php:10
+msgid "Membership not selected."
+msgstr ""
+
+#: template/membership_details.php:83
+msgid "Membership Price"
+msgstr ""
+
+#: template/membership_details.php:98
+msgid "Pay By"
+msgstr ""
+
+#: template/membership_payment.php:154 template/payment.php:50
+#: template/store.php:49
+msgid "Payment Cancel"
+msgstr ""
+
+#: template/message.php:63
+msgid "View Message"
+msgstr ""
+
+#: template/message/composemail.php:225
+msgid "Admin"
+msgstr ""
+
+#: template/news_letter.php:145
+msgid "Mailing list"
+msgstr ""
+
+#: template/notice.php:106
+msgid "Edit  Notice"
+msgstr ""
+
+#: template/notice.php:302
+msgid "Stall Members"
+msgstr ""
+
+#: template/nutrition.php:194
+msgid "View  Nutrition Schedule"
+msgstr ""
+
+#: template/payment.php:575 template/payment.php:607
+msgid "View Income"
+msgstr ""
+
+#: template/product.php:124
+msgid "Edit  Product"
+msgstr ""
+
+#: template/prospect.php:265
+msgid "Prospect List"
+msgstr ""
+
+#: template/prospect.php:275
+msgid "View Prospect"
+msgstr ""
+
+#: template/store.php:232
+msgid "Add Sell Product"
+msgstr ""
+
+msgid "Partially Paid"
+msgstr ""
+
+msgid "Today Can Not Assign Workout"
+msgstr ""

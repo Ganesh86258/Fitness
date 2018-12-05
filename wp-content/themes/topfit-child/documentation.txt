@@ -1,0 +1,109 @@
+
+PLugin feature:
+
+Task-1 (achieved by editing plugin files)
+Trainier login : All member's are visible 
+
+Now specific to his member are only visible to him
+
+-------------------------------------------------------
+
+Task-2 (achieved by editing plugin files)
+
+Payment Tabs:
+
+His payment details ( View subscriptions task)
+
+
+---------------------------
+
+Registeration file uploads correction
+
+1.Files can be removed while adding manage profile.
+
+2.Files can be removed after save 
+
+---------------------------
+
+
+Doubts:
+
+Questionaries Doubts:
+
+
+
+
+
+
+
+---------------------------------------------------------------
+
+Trainer login
+
+gannearneo@gmail.com
+111111
+
+------------------------------------------------------------------------------------------------
+1.Simple Registration
+http://fitness.php-dev.in/registration/
+In wordpress admin, inside registeraiton page this shotcode has been put [gmgt_custom_memberreg]
+
+"E:\Diana_client_Peter\backup_16_nov_2018\topfit-child\functions.php"(27,16):add_shortcode('gmgt_custom_memberreg', 'gmgt_custom_memberregistration_');
+
+shortcode defined in functions.php
+
+function gmgt_custom_memberregistration_()
+
+Line 25 - 475  450 lines function.
+
+ajax function register_user_frontend
+
+
+----------------------------------------------------------------------------------------------------
+
+2.User activation on the base of activation link which come in registration mail.
+
+3.Trainer's Registration.
+http://fitness.php-dev.in/trainer-registration/  [gmgt_custom_trainerreg]
+
+"E:\Diana_client_Peter\backup_16_nov_2018\topfit-child\functions.php"(565,16):add_shortcode('gmgt_custom_trainerreg', 'gmgt_custom_trainerregistration_');
+
+----------------------------------------------------------------------------------------
+Manage Profile:
+
+"E:\Diana_client_Peter\backup_16_nov_2018\topfit-child\functions.php"(638,34):           //var file_data = $("#certificates").prop("files")[0];   
+
+
+------------------------------------------------------------------------------------------
+
+4.User activation on the base of activation link which come in registration mail.
+
+---------------------------------------------------------------------------------------
+
+5.Listing of user's registration in backend.
+
+6.Listing of trainer's Registration in backend.
+
+7.Approve/Disapprove functinlity for trainer's from admin.
+
+6.Multiple file upload, Is there any Ajax function written for that ?
+
+
+Paypal code for memner registration
+
+function.php
+
+========================
+
+Plugin 
+
+activate /deactivate
+
+plugin-name/admin/staf-member/index.php
+
+Activity
+activty/
+
+File view download 
+plugin-name/admin/staf-member/index.php find word 11/13/2018Certificates
+

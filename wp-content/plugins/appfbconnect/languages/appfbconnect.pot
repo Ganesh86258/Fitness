@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the AppFBConnect package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AppFBConnect 2.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-11 20:00-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: appfbconnect.php:124
+#, php-format
+msgid "Thanks for logging in, %s!"
+msgstr ""
+
+#: appfbconnect.php:125
+msgid "Sorry, login failed"
+msgstr ""
+
+#: appfbconnect.php:126
+msgid "Please log into this app."
+msgstr ""
+
+#: appfbconnect.php:127
+msgid "Please log into Facebook."
+msgstr ""
+
+#: appfbconnect.php:128
+msgid "WordPress login error"
+msgstr ""
+
+#: appfbconnect.php:129
+msgid "Login error, please try again."
+msgstr ""
+
+#: appfbconnect.php:193
+#, php-format
+msgid ""
+"%1$s requires the AppPresser Core plugin to be installed/activated. %1$s has "
+"been deactivated."
+msgstr ""
+
+#: inc/admin.php:55 inc/admin.php:57
+msgid "Facebook Connect"
+msgstr ""
+
+#: inc/admin.php:68
+msgid "AppFBConnect License Key"
+msgstr ""
+
+#: inc/admin.php:71
+msgid "Adding a license key enables automatic updates."
+msgstr ""
+
+#: inc/admin.php:75
+msgid "App ID"
+msgstr ""
+
+#: inc/admin.php:78
+msgid ""
+"Get your app ID on the Facebook Developer App Dashboard. Create an app if "
+"you don't have one already."
+msgstr ""
+
+#: inc/admin.php:82
+msgid "Disable rewrite"
+msgstr ""
+
+#: inc/admin.php:87
+#, php-format
+msgid "Disable rewrite rule to %s. %s(%smore%s)%s"
+msgstr ""
+
+#: inc/admin.php:95
+msgid "Important!"
+msgstr ""
+
+#: inc/admin.php:97
+#, php-format
+msgid ""
+"Changes to this setting requires you to press the \"Save Settings\" button "
+"on the %sSettings:Permalinks%s page to flush WordPress's rewrite rules."
+msgstr ""
+
+#: inc/admin.php:102
+msgid ""
+"Disabling the rewrite requires using the following url in your Facebook "
+"app's \"Valid OAuth redirect URIs\" field: "
+msgstr ""
+
+#: inc/admin.php:107
+msgid ""
+"A blank page with JavaScript which closes the launched FB login window after "
+"login. If your server has trouble with the rewrite rule to the callback page "
+"you can disable this feature and update the url in your FB app. Requires you "
+"to press the Save Changes button on the Settings:Permalinks page to flush "
+"the rewrite rules."
+msgstr ""
+
+#: inc/admin.php:120
+msgid "Register New Users"
+msgstr ""
+
+#: inc/admin.php:123
+msgid "Register new users automatically."
+msgstr ""
+
+#: inc/admin.php:127
+msgid "Redirect URL After Login"
+msgstr ""
+
+#: inc/admin.php:130
+msgid "Redirect the logged in user to this page."
+msgstr ""
+
+#: inc/shortcodes.php:67
+msgid "Login with Facebook"
+msgstr ""
+
+#: inc/shortcodes.php:94
+msgid "Logged in as "
+msgstr ""
+
+#: inc/shortcodes.php:102
+msgid "Post Status Update"
+msgstr ""

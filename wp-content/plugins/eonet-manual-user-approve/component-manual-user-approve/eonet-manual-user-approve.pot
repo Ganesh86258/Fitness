@@ -1,0 +1,591 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Eonet Manual User Approve\n"
+"POT-Creation-Date: 2017-03-15 12:30+0100\n"
+"PO-Revision-Date: 2017-03-15 12:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:71
+msgid ""
+"This site is accessible to approved users only. After registration, you have "
+"to wait for the admin approval before access."
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:87
+msgid ""
+"Your email was confirmed successfully but your account is still waiting for "
+"approval. Once your registration is approved, you will receive an email with "
+"further instructions for logging into the site."
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:89
+msgid ""
+"Registration completed.<br><br>An email has been sent to the admin, once he "
+"approves your registration, you will receive your credentials."
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:118
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:135
+msgid "ERROR:"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:118
+msgid "Your account is still pending approval."
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:135
+msgid "Your account has been denied."
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:153
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:155
+msgid "ERROR"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:153
+msgid ""
+"This account is still waiting for the aaproval, you cannot reset the "
+"password until your account has been approved."
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:155
+msgid ""
+"This account is denied access to this site, you cannot reset the password."
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:169
+msgid "New user approval request"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:217
+msgid "Your registration request has been approved"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:257
+msgid "Password:"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_Message.php:270
+msgid "Your registration request has been denied"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UserManager.php:289
+msgid "approved"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UserManager.php:291
+msgid "pending"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UserManager.php:293
+msgid "denied"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:65
+msgctxt "The action on users list page"
+msgid "Approve"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:66
+msgctxt "The action on users list page"
+msgid "Deny"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:134
+#, php-format
+msgid "User approved."
+msgid_plural "%s users approved."
+msgstr[0] ""
+msgstr[1] ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:136
+#, php-format
+msgid "User denied."
+msgid_plural "%s users denied."
+msgstr[0] ""
+msgstr[1] ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:151
+msgid "Status"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:194
+msgid "All statuses"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:196
+msgid "All approval statuses"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:205
+msgid "Filter"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:289
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:290
+msgid "Approve"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:292
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:293
+msgid "Deny"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:372
+msgid "Approval Status"
+msgstr ""
+
+#: component-manual-user-approve/classes/Eonet_MUA_UsersListManager.php:384
+msgid "If user has access to sign in or not."
+msgstr ""
+
+#: component-manual-user-approve/settings.php:13
+msgid "Send email to admin"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:14
+msgid "Send an email to the admin when a new user is waiting for approval"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:21
+msgid "Messages"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:26
+msgid "Welcome Message"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:27
+msgid "Displayed on the registration page."
+msgstr ""
+
+#: component-manual-user-approve/settings.php:33
+msgid "Registration completed"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:34
+msgid "Displayed when the registration process has been completed."
+msgstr ""
+
+#: component-manual-user-approve/settings.php:40
+msgid "Authentication Pending"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:41
+msgid ""
+"Displayed if an user tries to login but his account is still waiting for "
+"approval."
+msgstr ""
+
+#: component-manual-user-approve/settings.php:47
+msgid "Authentication Denied"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:48
+msgid "Displayed if an user tries to login but his account has been denied."
+msgstr ""
+
+#: component-manual-user-approve/settings.php:55
+msgid "Emails"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:61
+msgid "Email to admin (Subject)"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:62
+msgid ""
+"The subject of the email sent to the admin to alert him that a new user is "
+"waiting for approval."
+msgstr ""
+
+#: component-manual-user-approve/settings.php:68
+msgid "Email to admin (Content)"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:69
+msgid ""
+"The content of the email sent to the admin to alert him that a new user is "
+"waiting for approval."
+msgstr ""
+
+#: component-manual-user-approve/settings.php:76
+msgid "Registration approved (Subject)"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:77
+msgid "The subject of the email sent to the user when his account is approved."
+msgstr ""
+
+#: component-manual-user-approve/settings.php:83
+msgid "Registration approved (Content)"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:84
+msgid "The content of the email sent to the user when his account is approved."
+msgstr ""
+
+#: component-manual-user-approve/settings.php:91
+msgid "Registration denied (Subject)"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:92
+msgid "The subject of the email sent to the user when his account is denied."
+msgstr ""
+
+#: component-manual-user-approve/settings.php:98
+msgid "Registration denied (Content)"
+msgstr ""
+
+#: component-manual-user-approve/settings.php:99
+msgid "The content of the email sent to the user when his account is denied."
+msgstr ""
+
+#: component-manual-user-approve/templates/members/activate.php:48
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: component-manual-user-approve/templates/members/activate.php:52
+msgid "Activation Key:"
+msgstr ""
+
+#: component-manual-user-approve/templates/members/activate.php:56
+#: core/admin/pages/views/extensions.php:49
+msgid "Activate"
+msgstr ""
+
+#: core/EonetComponents.php:113 core/admin/pages/EonetPageSettings.php:13
+msgid "Settings"
+msgstr ""
+
+#: core/EonetComponents.php:276
+msgid "Extension has been deleted !"
+msgstr ""
+
+#: core/EonetComponents.php:277 core/admin/EonetAdmin.php:107
+#: core/admin/pages/views/extensions.php:106
+msgid "The page will be refreshed in a few seconds..."
+msgstr ""
+
+#: core/EonetComponents.php:283
+msgid "We couldn't install it..."
+msgstr ""
+
+#: core/EonetComponents.php:284
+msgid "Please try from your plugin page."
+msgstr ""
+
+#: core/EonetComponents.php:292 core/admin/EonetAdmin.php:75
+#: core/admin/EonetAdmin.php:110
+msgid "Something went wrong..."
+msgstr ""
+
+#: core/EonetComponents.php:293 core/admin/EonetAdmin.php:111
+msgid "We've not been able to reset your settings, please try again later."
+msgstr ""
+
+#: core/EonetComponents.php:315
+msgid "Live Search"
+msgstr ""
+
+#: core/EonetComponents.php:319
+msgid ""
+"Enhance your Wordpress search bar with customizable live search through all "
+"your post types and members."
+msgstr ""
+
+#: core/EonetComponents.php:323
+msgid "Frontend Publisher"
+msgstr ""
+
+#: core/EonetComponents.php:327
+msgid ""
+"Allow yourself, your team or your user to edit and publish any Wordpress "
+"post or page."
+msgstr ""
+
+#: core/EonetComponents.php:331
+msgid "Manual User Approve"
+msgstr ""
+
+#. Description of the plugin/theme
+#: core/EonetComponents.php:335
+msgid ""
+"Allows the admin of the site to approve or deny users manually, after they "
+"have registered."
+msgstr ""
+
+#: core/EonetComponents.php:339
+msgid "Live Notifications"
+msgstr ""
+
+#: core/EonetComponents.php:343
+msgid ""
+"Enables live notifications for all your users to get better interactions "
+"within your site."
+msgstr ""
+
+#: core/EonetComponents.php:347
+msgid "Project Manager"
+msgstr ""
+
+#: core/EonetComponents.php:351
+msgid "Enables a complete project management tool for your site."
+msgstr ""
+
+#: core/EonetComponents.php:355
+msgid "Social Connect"
+msgstr ""
+
+#: core/EonetComponents.php:359
+msgid ""
+"Allow your visitor to login or register using Facebook, Twitter, Slack or "
+"Linkedin."
+msgstr ""
+
+#: core/EonetOptions.php:170
+msgid "Delete"
+msgstr ""
+
+#: core/EonetOptions.php:174
+msgid "New"
+msgstr ""
+
+#: core/EonetOptions.php:177
+msgid "Save"
+msgstr ""
+
+#: core/EonetOptions.php:436
+msgid "Icon groups:"
+msgstr ""
+
+#: core/EonetOptions.php:439
+msgctxt "Select option in the icon picker field"
+msgid "All icons"
+msgstr ""
+
+#: core/EonetOptions.php:473
+msgid "No icon"
+msgstr ""
+
+#: core/EonetOptions.php:631
+msgid "Choose an Image"
+msgstr ""
+
+#: core/EonetOptions.php:780
+msgid "Font Family:"
+msgstr ""
+
+#: core/EonetOptions.php:786
+msgid "Select a font.."
+msgstr ""
+
+#: core/EonetOptions.php:799
+msgid "Font Size:"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:71
+msgid "Done, everything is safe !"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:72
+msgid "Your settings have been saved successfully."
+msgstr ""
+
+#: core/admin/EonetAdmin.php:76
+msgid "We've not been able to save your settings, please try again later."
+msgstr ""
+
+#: core/admin/EonetAdmin.php:106
+msgid "Done, settings have been reset !"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:195
+msgid "Eonet Dashboard"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:196
+msgid "Eonet"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:255
+msgid "Woffice Intranet/Extranet theme"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:261
+msgid "Projects Management"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:262
+msgid "Complete Wiki/Knowledge base"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:263
+msgid "Members map & directory"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:264
+msgid "Responsive layout (mobile & tablet)"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:265
+msgid "Cover picture"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:266
+msgid "Private / Public pages"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:267
+msgid "Files Manager"
+msgstr ""
+
+#: core/admin/EonetAdmin.php:268
+msgid "Events calendar"
+msgstr ""
+
+#: core/admin/pages/EonetPageExtensions.php:13
+msgid "Components"
+msgstr ""
+
+#: core/admin/pages/EonetPageSupport.php:13
+msgid "Support"
+msgstr ""
+
+#: core/admin/pages/EonetPageThemes.php:14
+msgid "Themes"
+msgstr ""
+
+#: core/admin/pages/views/extensions.php:28
+msgid "Coming Soon"
+msgstr ""
+
+#: core/admin/pages/views/extensions.php:41
+msgid "Version"
+msgstr ""
+
+#: core/admin/pages/views/extensions.php:54
+msgid "Deactivate"
+msgstr ""
+
+#: core/admin/pages/views/extensions.php:105
+msgid "We're installing the extension !"
+msgstr ""
+
+#: core/admin/pages/views/settings.php:23
+msgid "You haven't any component enabled which'd require a Settings Panel"
+msgstr ""
+
+#: core/admin/pages/views/settings.php:95
+msgid "No option available at this moment... "
+msgstr ""
+
+#: core/admin/pages/views/settings.php:96
+msgid ""
+"We're still working on this component options. Feel free to get in touch "
+"with us for any option idea. Options will be coming in the premium version."
+msgstr ""
+
+#: core/admin/pages/views/settings.php:111
+msgid "Reset Settings"
+msgstr ""
+
+#: core/admin/pages/views/settings.php:131
+msgid ""
+"Are you sure? This can't be undone. All your Eonet settings will be erased."
+msgstr ""
+
+#: core/admin/pages/views/support.php:12
+msgid "Having any question or issue ?"
+msgstr ""
+
+#: core/admin/pages/views/support.php:13 core/admin/pages/views/themes.php:16
+msgid "Our team is here to help you out at anytime."
+msgstr ""
+
+#: core/admin/pages/views/support.php:14 core/admin/pages/views/themes.php:17
+msgid "If you have any idea about how we could improve."
+msgstr ""
+
+#: core/admin/pages/views/support.php:15
+msgid ""
+"You can share access to your site on our helpdesk if it can help getting "
+"faster."
+msgstr ""
+
+#: core/admin/pages/views/support.php:16
+msgid "There are two ways to in touch with us : "
+msgstr ""
+
+#: core/admin/pages/views/support.php:29
+msgid "Tickets Support"
+msgstr ""
+
+#: core/admin/pages/views/support.php:30
+msgid ""
+"Open a ticket on our helpdesk, we don't guarantee a fast response but within "
+"a week. Except if you've purchased one of our product we'll reply within 24 "
+"hours."
+msgstr ""
+
+#: core/admin/pages/views/support.php:34
+msgid "Open a ticket"
+msgstr ""
+
+#: core/admin/pages/views/support.php:49
+msgid "Forum Support"
+msgstr ""
+
+#: core/admin/pages/views/support.php:50
+msgid ""
+"Create a new thread on our plugin page, participation is open to anyone from "
+"all around the world. We'll be there to help as well but can't guarantee any "
+"delay. "
+msgstr ""
+
+#: core/admin/pages/views/support.php:54
+msgid "Open a thread"
+msgstr ""
+
+#: core/admin/pages/views/themes.php:15
+msgid "Do you want your site to looks nice ?"
+msgstr ""
+
+#: core/admin/pages/views/themes.php:38
+msgid "All features"
+msgstr ""
+
+#: core/admin/pages/views/themes.php:41
+msgid "Demo"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Eonet Manual User Approve"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/eonet-manual-user-approve/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alkaweb"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://alka-web.com/"
+msgstr ""

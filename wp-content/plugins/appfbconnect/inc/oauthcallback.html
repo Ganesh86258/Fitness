@@ -1,0 +1,13 @@
+<html>
+<body>
+<script>
+	if( ! window.opener ) {
+		document.write('This page is used to close the Facebook login window after logging in.')
+	} else {
+		// Close this window after returning from Facebook
+		window.opener.openFB.oauthCallback(window.location.href);
+		window.close();
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.appp-rewrite-warning {
+	display: none;
+}
+
+.appp-rewrite-warning h4 {
+	margin: 12px 0 8px;
+}
+
+.appp-rewrite-warning ol li {
+	line-height: 1.5em;
+}
